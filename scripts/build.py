@@ -164,7 +164,7 @@ def main():
         e["screenshot_score"] = int(m.get("screenshot_score") or (3 if e["screenshot"] else 0))
         e["note"] = m.get("note")
         pst = r.get("links_checked", {}).get("play_url", r.get("link_status") or 0)
-        e["browser_playable"] = bool(e.get("play_url")) and (bool(bver) or 200 <= pst < 400 or pst in (401, 403, 429)) and bst.get("ok", True)
+        e["browser_playable"] = bool(e.get("play_url")) and (bool(bver) or 200 <= pst < 400 or pst in (401, 403, 429)) and (bst.get("ok", True) or bool(bver))  # browser_verified overrides a false-positive headless check
         seen[key] = e; out.append(e)
     # mods & mashups built on decomps: own section, kept out of topics, counts, picks, browser and inactive lists
     mods = sorted([e for e in out if e["type"] == "mod"], key=lambda e: (MOD_GROUPS.index(e.get("mod_group")) if e.get("mod_group") in MOD_GROUPS else 99, -(e["stars"] or 0)))
@@ -213,6 +213,7 @@ SOURCES = [
  {"name": "radek-sprta/awesome-game-remakes", "url": "https://github.com/radek-sprta/awesome-game-remakes"},
  {"name": "X post by @RadiantOpti (browser games list)", "url": "https://x.com/RadiantOpti/status/2108068632991256995"},
  {"name": "bailo167/awesome-game-mashups (CC0; mods & mashups with 25+ stars)", "url": "https://github.com/bailo167/awesome-game-mashups"},
+ {"name": "portedgames.com (hand-picked)", "url": "https://portedgames.com/"},
  {"name": "r/recomps and r/decomps (established projects, hand-picked)", "url": "https://www.reddit.com/r/recomps/"},
  {"name": "BlueInterlude/awesome-recompilations", "url": "https://github.com/BlueInterlude/awesome-recompilations"},
 ]

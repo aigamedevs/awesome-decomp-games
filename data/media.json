@@ -1088,5 +1088,32 @@
    720
   ],
   "screenshot_score": 3
+ },
+ "https://oldkid.net/booym": {
+  "screenshot": "screenshots/browser-booym-decomp.jpg",
+  "screenshot_source": "live capture of https://oldkid.net/booym/",
+  "screenshot_size": [
+   1280,
+   720
+  ],
+  "screenshot_score": 3
+ },
+ "https://github.com/tanepiper/unbanished": {
+  "screenshot": "screenshots/browser-tanepiper-unbanished.jpg",
+  "screenshot_source": "https://tanepiper.github.io/unbanished/assets/screenshots/town-hall.webp",
+  "screenshot_size": [
+   1280,
+   720
+  ],
+  "screenshot_score": 5
+ },
+ "https://github.com/Solid7s/Virtual-On-Web": {
+  "screenshot": "screenshots/browser-solid7s-virtual-on-web.jpg",
+  "screenshot_source": "live capture of https://solid7s.github.io/Virtual-On-Web/",
+  "screenshot_size": [
+   1280,
+   720
+  ],
+  "screenshot_score": 3
  }
 }

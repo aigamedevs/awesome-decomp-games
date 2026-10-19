@@ -309,7 +309,8 @@
   }
  },
  "browser_verified": {
-  "https://ovz-game-production.up.railway.app": "Verified working by Igor on 2026-10-11 (Cloudflare traffic check precedes the game)."
+  "https://ovz-game-production.up.railway.app": "Verified working by Igor on 2026-10-11 (Cloudflare traffic check precedes the game).",
+  "https://solid7s.github.io/Virtual-On-Web/": "Live on 2026-10-19; the 'Copyright notice' the check flags is a footer link to NOTICE.md, not a takedown. Needs your own von.zip ROM."
  },
  "exclude_patterns": [
   "openlara"

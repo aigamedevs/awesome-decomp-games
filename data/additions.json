@@ -851,5 +851,145 @@
   "needs_assets": "byo",
   "ai_flag": true,
   "description": "Partial Super Mario 64 port in vanilla Scratch blocks, with gameplay systems translated from the community SM64 source with AI help. Beta 0.1.0 has the intro, castle grounds, part of the castle and Bob-omb Battlefield (4 stars). Python scripts build a playable .sb3 from your own US ROM; run it in TurboWarp. There's no hosted build."
+ },
+ {
+  "title": "Pokémon: Let's Go, Eevee! (letsgo-recomp)",
+  "url": "https://github.com/raulzrrs/letsgo-recomp",
+  "platform": "Switch",
+  "type": "recomp",
+  "source": "reddit:r/decomps",
+  "reddit_post": "https://www.reddit.com/r/decomps/comments/1x95bv5/",
+  "needs_assets": "byo",
+  "description": "Native Windows port of Pokémon: Let's Go, Eevee! (Switch v1.0.0) by static recompilation, built on LAS Recomp. The game is built on your PC from your own game files; none are included."
+ },
+ {
+  "title": "Pokémon Brilliant Diamond / Shining Pearl (uDPR)",
+  "url": "https://github.com/shatter9652/uDPR",
+  "platform": "Switch",
+  "type": "port",
+  "source": "reddit:r/decomps",
+  "reddit_post": "https://www.reddit.com/r/decomps/comments/1x9ktl9/",
+  "needs_assets": "byo",
+  "ai_flag": true,
+  "description": "Pokémon Brilliant Diamond rebuilt as a Unity project from your own v1.3.0 dump, then built as a standalone Windows game: compiled C# game logic, PC display options, rebindable keyboard/gamepad, fast-forward. Beta. Fork of Manurocker95/uDPR. Made almost entirely with AI (Claude), per the README."
+ },
+ {
+  "title": "Dragon Quest IX: Sentinels of the Starry Skies (DQIX Enhanced)",
+  "url": "https://github.com/sackchief/dqix-enhanced",
+  "platform": "DS",
+  "type": "recomp",
+  "source": "reddit:r/decomps",
+  "reddit_post": "https://www.reddit.com/r/decomps/comments/1x9fm5s/",
+  "needs_assets": "byo",
+  "description": "Dragon Quest IX recompiled into a native Windows program from your own USA DS ROM: pixel-exact Classic mode plus an Enhanced mode with up to 12x 3D resolution, widescreen and online co-op."
+ },
+ {
+  "title": "Tekken 5: Dark Resurrection Online (T5DROnline)",
+  "url": "https://github.com/TheWishin/T5DROnline",
+  "platform": "PS3",
+  "type": "recomp",
+  "source": "reddit:r/decomps",
+  "reddit_post": "https://www.reddit.com/r/decomps/comments/1x98vgt/",
+  "needs_assets": "byo",
+  "ai_flag": true,
+  "description": "Tekken 5: Dark Resurrection (PS3/PSN) statically recompiled to C++ and built as a native Windows program from your own PSN package: all offline modes at 60 fps, with online play between friends working. Developed with the help of Claude, per the README."
+ },
+ {
+  "title": "Scooby-Doo! Unmasked (Scooby-Doo ReMasked)",
+  "url": "https://github.com/josiahg2502-glitch/Scooby-Doo-ReMasked",
+  "platform": "GameCube",
+  "type": "recomp",
+  "source": "reddit:r/decomps",
+  "reddit_post": "https://www.reddit.com/r/decomps/comments/1x9fhq3/",
+  "needs_assets": "byo",
+  "description": "Statically recompiled PC port of Scooby-Doo! Unmasked (GameCube): 4K, true widescreen, 120 fps, HDR. Bring your own disc."
+ },
+ {
+  "title": "Virtua Fighter 3 (vf3-recomp)",
+  "url": "https://github.com/mr-finster/vf3-recomp",
+  "info_url": "https://vf3-recomp.pages.dev/",
+  "platform": "Arcade",
+  "type": "recomp",
+  "source": "reddit:r/decomps",
+  "reddit_post": "https://www.reddit.com/r/decomps/comments/1x9mwqp/",
+  "needs_assets": "byo",
+  "ai_flag": true,
+  "description": "Virtua Fighter 3 (Sega Model 3, 1996) with the arcade's PowerPC program recompiled to native code for Windows, Mac and Steam Deck: up to 6x resolution, widescreen, smooth 120 fps. Alpha. Bring your own vf3.zip. Made with the help of AI coding tools, per the README."
+ },
+ {
+  "title": "Star Wars: Battlefront I + II (openbf)",
+  "url": "https://github.com/sprucey149/openbf",
+  "platform": "PS2",
+  "type": "remake",
+  "source": "reddit:r/decomps",
+  "reddit_post": "https://www.reddit.com/r/decomps/comments/1x9jake/",
+  "needs_assets": "byo",
+  "ai_flag": true,
+  "description": "Open-source Rust engine that plays the PS2 versions of Star Wars: Battlefront and Battlefront II, built from your own disc images. Work in progress: playable, far from finished. Nearly all written by AI agents (Claude), per the README."
+ },
+ {
+  "title": "Cyber Troopers Virtual-On (Virtual-On-Web)",
+  "url": "https://github.com/Solid7s/Virtual-On-Web",
+  "play_url": "https://solid7s.github.io/Virtual-On-Web/",
+  "platform": "Arcade",
+  "type": "browser",
+  "source": "reddit:r/decomps",
+  "reddit_post": "https://www.reddit.com/r/decomps/comments/1x9b2mw/",
+  "needs_assets": "byo",
+  "description": "The Sega Model 2 arcade game's i960, SHARC and 68000 programs recompiled ahead of time to WebAssembly, with WebGPU graphics; plays in the browser (desktop Chrome) with your own von.zip ROM set."
+ },
+ {
+  "title": "Banished (Un-Banished)",
+  "url": "https://github.com/tanepiper/unbanished",
+  "play_url": "https://tanepiper.github.io/unbanished/",
+  "platform": "PC",
+  "type": "browser",
+  "source": "reddit:r/decomps",
+  "reddit_post": "https://www.reddit.com/r/decomps/comments/1x9w77w/",
+  "needs_assets": "byo",
+  "ai_flag": true,
+  "description": "From-scratch Rust reimplementation of the Banished engine for Windows, macOS, Linux and the browser; reads the data files from your own copy of Banished. An AI agent helped document the original's behaviour, per the README."
+ },
+ {
+  "title": "Booym (decomp)",
+  "url": "https://oldkid.net/booym/",
+  "play_url": "https://oldkid.net/booym/",
+  "platform": "PC",
+  "type": "browser",
+  "source": "reddit:r/decomps",
+  "reddit_post": "https://www.reddit.com/r/decomps/comments/1x96zkd/",
+  "needs_assets": "instant",
+  "description": "The 1999 PC brick-smashing duel rebuilt from its original code: plays in the browser (about 35 MB, keyboard/mouse or touch), with Windows and Android builds. No public repo."
+ },
+ {
+  "title": "Gran Turismo Sport (RyGT)",
+  "url": "https://github.com/mlgprorektm8/RyGT",
+  "info_url": "https://portedgames.com/gran-turismo-pc/",
+  "platform": "PS4",
+  "type": "port",
+  "source": "portedgames.com",
+  "needs_assets": "byo",
+  "description": "WIP native Windows port of Gran Turismo Sport (PS4, update 1.69): converts your own game executable so the code runs directly on the CPU, with shadGT's Vulkan renderer. Menus, races and audio working at about 42-60 fps. Fork of aarvsn/Ryty."
+ },
+ {
+  "title": "Grand Theft Auto IV (Liberty Recompiled, OZORDI)",
+  "url": "https://github.com/OZORDI/LibertyRecomp",
+  "info_url": "https://portedgames.com/gta-iv-xbox-360-recomp/",
+  "platform": "Xbox 360",
+  "type": "recomp",
+  "source": "portedgames.com",
+  "needs_assets": "byo",
+  "description": "Unofficial PC port of the Xbox 360 GTA IV by static recompilation (ReXGlue, MarathonRecomp framework), targeting Windows, Linux and macOS. Early development, not meant for public use yet. Needs your own copy of the game. The original repo; hamishakl/LibertyRecomp is a smaller copy."
+ },
+ {
+  "title": "inFAMOUS Second Son (shadPS4-AYOUB1080p)",
+  "url": "https://github.com/weshayoub92/shadPS4-AYOUB1080p",
+  "info_url": "https://portedgames.com/infamous-second-son-pc/",
+  "platform": "PS4",
+  "type": "port",
+  "source": "portedgames.com",
+  "needs_assets": "byo",
+  "ai_flag": true,
+  "description": "Single-game shadPS4 fork tuned to run inFAMOUS Second Son smoothly on Windows. No game files, keys or firmware included; use your own dump. Developed with the help of Claude, per the README."
  }
 ]
