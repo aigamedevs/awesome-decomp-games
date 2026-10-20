@@ -8,7 +8,7 @@ Stars here are unbaked's own numbers and only pre-filter; build.py re-applies th
 import json, os, re, time, requests
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 API = "https://unbaked.games/api"
-UA = {"User-Agent": "awesome-decomp-games-refresh (+https://github.com/SubmitGame/awesome-decomp-games)"}
+UA = {"User-Agent": "awesome-decomp-games-refresh (+https://github.com/aigamedevs/awesome-decomp-games)"}
 KEEP = {"Matching decomp": "decomp", "Decomp": "decomp", "AI-assisted decomp": "decomp", "Static recomp": "recomp",
         "Reimplementation": "remake", "Source port": "port", "Disassembly": "disasm"}
 BAD = re.compile(r"\b(emulator|emu|launcher|toolkit|rom ?hack|romhack|iso|roms?)\b", re.I)

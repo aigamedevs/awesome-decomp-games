@@ -4,7 +4,7 @@ import json, os, re
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 doc = json.load(open(os.path.join(ROOT, "data", "games.json")))
 G, T = doc["games"], doc["topics"]
-SITE = "https://submitgame.github.io/awesome-decomp-games/"
+SITE = "https://aigamedevs.github.io/awesome-decomp-games/"
 SING = {"static-recomp": "Static recompilation", "source-port": "Source port", "engine-remake": "Engine remake", "browser-port": "Browser port",
         "decompilation": "Decompilation", "disassembly": "Disassembly", "tool": "Tool"}
 def esc(s): return (s or "").replace("|", "\\|").replace("\n", " ").strip()

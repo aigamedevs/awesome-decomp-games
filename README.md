@@ -9,7 +9,7 @@
 
 > A rated, auto-refreshed list of **decompiled, recompiled and reverse-engineered games**: matching decompilations, static recompilations, source ports, engine remakes, disassemblies and browser ports.
 
-**2266 projects** covering **1933 games** · updated 2026-10-19 · browse and filter on the **[website](https://submitgame.github.io/awesome-decomp-games/)** · data in [`data/games.json`](data/games.json)
+**2266 projects** covering **1933 games** · updated 2026-10-19 · browse and filter on the **[website](https://aigamedevs.github.io/awesome-decomp-games/)** · data in [`data/games.json`](data/games.json)
 
 > [!IMPORTANT]
 > This list only links to source code and project pages. It does **not** host or link to ROMs, ISOs, game assets or other copyrighted material. Most projects need files from a copy of the game you own. See the [disclaimer](#disclaimer).

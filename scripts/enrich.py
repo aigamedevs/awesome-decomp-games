@@ -6,7 +6,7 @@ import json, re, os, subprocess, sys, time, concurrent.futures as cf
 import requests
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 GH = re.compile(r"^https?://(?:www\.)?github\.com/([^/]+)/([^/#?]+)", re.I)
-UA = {"User-Agent": "awesome-decomp-games-linkcheck/1.0 (+https://github.com/SubmitGame/awesome-decomp-games)"}
+UA = {"User-Agent": "awesome-decomp-games-linkcheck/1.0 (+https://github.com/aigamedevs/awesome-decomp-games)"}
 
 FIELDS = """nameWithOwner url stargazerCount forkCount isArchived isFork isDisabled pushedAt description homepageUrl
  openGraphImageUrl usesCustomOpenGraphImage licenseInfo{spdxId}

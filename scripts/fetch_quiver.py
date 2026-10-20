@@ -5,7 +5,7 @@ data/overrides.json "quiver_exclude" are skipped (emulators, general engines, to
 import json, os, time, requests
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 API = "https://api.quiverlauncher.com/api/v1"
-UA = {"User-Agent": "awesome-decomp-games-refresh (+https://github.com/SubmitGame/awesome-decomp-games)"}
+UA = {"User-Agent": "awesome-decomp-games-refresh (+https://github.com/aigamedevs/awesome-decomp-games)"}
 def main():
     over = json.load(open(os.path.join(ROOT, "data", "overrides.json")))
     skip = set(over.get("quiver_exclude", []))

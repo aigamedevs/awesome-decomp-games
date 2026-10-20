@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-"""Mirror every browser-playable entry in data/games.json that has no local backup in /workspace/sites.
+"""Mirror every browser-playable entry in data/games.json that has no local backup in /workspace/downloads.
 Usage: backup_browser.py [--dry] [--jobs N] [--only id,id]"""
 import json, os, re, subprocess, sys, urllib.parse, time, concurrent.futures as cf
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-SITES = '/workspace/sites'; T = SITES + '/tools'; CAP = 6 * 1024**3
+SITES = '/workspace/downloads'; T = SITES + '/tools'; CAP = 6 * 1024**3
 args = sys.argv[1:]; dry = '--dry' in args
 jobs = int(args[args.index('--jobs')+1]) if '--jobs' in args else 3
 only = set(args[args.index('--only')+1].split(',')) if '--only' in args else None

@@ -5,7 +5,7 @@ drops non-GitHub links, release-tag duplicates, launchers, and Android-only fork
 a desktop card. data-ai-assisted -> ai flag. build.py applies the 10-star bar on live GitHub data."""
 import html, json, os, re, requests
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-UA = {"User-Agent": "awesome-decomp-games-refresh (+https://github.com/SubmitGame/awesome-decomp-games)"}
+UA = {"User-Agent": "awesome-decomp-games-refresh (+https://github.com/aigamedevs/awesome-decomp-games)"}
 T = lambda s: html.unescape(re.sub(r"<[^>]+>", "", s or "")).strip()
 def norm(u):
     m = re.match(r"https?://(?:www\.)?github\.com/([^/\s#?]+)/([^/\s#?]+)", u or "")
