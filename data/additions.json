@@ -991,5 +991,282 @@
   "needs_assets": "byo",
   "ai_flag": true,
   "description": "Single-game shadPS4 fork tuned to run inFAMOUS Second Son smoothly on Windows. No game files, keys or firmware included; use your own dump. Developed with the help of Claude, per the README."
+ },
+ {
+  "title": "Civilization V (Unciv)",
+  "url": "https://github.com/yairm210/Unciv",
+  "platform": "PC",
+  "type": "remake",
+  "source": "FMHY (fmhy:gaming)",
+  "description": "Open-source remake of Civilization V for Android and desktop (Windows, macOS, Linux); free, no original game needed."
+ },
+ {
+  "title": "Minecraft Classic (ClassiCube)",
+  "url": "https://github.com/ClassiCube/ClassiCube",
+  "platform": "PC",
+  "type": "remake",
+  "source": "FMHY (fmhy:gaming)",
+  "description": "Minecraft Classic-compatible client written from scratch in C (formerly ClassicalSharp), for desktop, mobile, consoles and the web; free, no original game needed. Not affiliated with Mojang/Microsoft."
+ },
+ {
+  "title": "Plants vs. Zombies 2 (PvZ2 Gardendless)",
+  "url": "https://github.com/Gzh0821/pvzge_web",
+  "platform": "Mobile",
+  "type": "browser",
+  "source": "FMHY (PortsDR)",
+  "play_url": "https://play.pvzge.com/",
+  "info_url": "https://pvzge.com/en/",
+  "needs_assets": "instant",
+  "description": "Plants vs. Zombies 2 rewritten entirely in web technologies (Cocos engine): play in the browser at play.pvzge.com or download PC builds from pvzge.com (site repo: Gzh0821/pvzg_site). Plays instantly."
+ },
+ {
+  "title": "SimCity (Micropolis)",
+  "url": "https://github.com/SimHacker/micropolis",
+  "platform": "PC",
+  "type": "port",
+  "source": "FMHY (PCGamingWiki)",
+  "description": "The original SimCity Classic source released by EA/Maxis under the GPL as Micropolis (Unix/X11/Tcl/Tk lineage). Mostly historical now; active development moved to SimHacker/MicropolisCore."
+ },
+ {
+  "title": "Nox (OpenNox)",
+  "url": "https://github.com/opennox/opennox",
+  "platform": "PC",
+  "type": "port",
+  "source": "FMHY (fmhy:gaming)",
+  "info_url": "https://opennox.github.io/docs/",
+  "needs_assets": "byo",
+  "description": "Open-source community project extending the Nox engine: supports the full vanilla campaign and online play with new features on modern systems. Needs your own Nox game files."
+ },
+ {
+  "title": "Monster Hunter Portable 3rd HD Ver. (Yakumo)",
+  "url": "https://github.com/TeamGDB/Yakumo",
+  "platform": "PSP",
+  "type": "recomp",
+  "source": "FMHY (PortsDR)",
+  "info_url": "https://teamgdb.github.io/Yakumo/",
+  "needs_assets": "byo",
+  "description": "Native port of Monster Hunter Portable 3rd HD Ver. by static recompilation: the PSP code translated ahead of time to C++, with Vulkan and SDL3. Needs your own copy (NPJB-40001)."
+ },
+ {
+  "title": "Crash Bandicoot (CrashBandicoot-Launcher)",
+  "url": "https://github.com/Matteo842/CrashBandicoot-Launcher",
+  "platform": "PS1",
+  "type": "recomp",
+  "source": "FMHY (PCGamingWiki)",
+  "needs_assets": "byo",
+  "description": "Crash Bandicoot (1996) statically recompiled into a native program on PC and Android: true 16:9, up to 240 fps, up to 4K, quick saves, mods. WIP. Needs your own SCUS-94900 dump (.chd or .cue/.bin)."
+ },
+ {
+  "title": "The Order: 1886 (PC port)",
+  "url": "https://github.com/mateussmeneses/theorder1886-port",
+  "platform": "PS4",
+  "type": "port",
+  "source": "FMHY (PCGamingWiki)",
+  "needs_assets": "byo",
+  "description": "WIP native Windows port of The Order: 1886: the original x86-64 executable runs on the CPU with a replacement PS4 runtime and shadPS4's Vulkan video core (started from the God of War III port). Needs your own CUSA00035 v1.02 dump."
+ },
+ {
+  "title": "Need for Speed: Most Wanted (NFSMW Android Evolved)",
+  "url": "https://github.com/codepdbh/nfsmw-android",
+  "platform": "Xbox 360",
+  "type": "recomp",
+  "source": "FMHY (PortsDR)",
+  "needs_assets": "byo",
+  "description": "Android ARM64 build of the nfsmw-nx Xbox 360 recompilation on the ReXGlue SDK: native APK, Vulkan, touch controls. Needs your own game files."
+ },
+ {
+  "title": "Driveclub (Driveclub-PC)",
+  "url": "https://github.com/ondrejeder/Driveclub-pc-wrapper",
+  "platform": "PS4",
+  "type": "port",
+  "source": "FMHY (PCGamingWiki)",
+  "needs_assets": "byo",
+  "description": "Single-game shadPS4 fork tuned to run Driveclub (CUSA00093 v1.28) on Windows, built on GR2fork. Needs your own dump."
+ },
+ {
+  "title": "Killzone Shadow Fall (PC)",
+  "url": "https://github.com/lesca-191204/killzone-shadowfall-pc",
+  "platform": "PS4",
+  "type": "port",
+  "source": "FMHY (PCGamingWiki)",
+  "needs_assets": "byo",
+  "description": "Native Windows port of Killzone Shadow Fall: the game code runs directly on the CPU with graphics translated to Vulkan. Public beta, whole campaign playable. Needs your own CUSA00190 v1.81 dump."
+ },
+ {
+  "title": "Plants vs. Zombies (PlantsVsZombies.NET)",
+  "url": "https://github.com/Mewnojs/PlantsVsZombies.NET",
+  "platform": "Mobile",
+  "type": "port",
+  "source": "FMHY (RetroReversing)",
+  "needs_assets": "byo",
+  "description": "The C# Windows Phone version of Plants vs. Zombies ported to PC and Android with MonoGame. Needs the game's resource pack."
+ },
+ {
+  "title": "Halo: Combat Evolved multiplayer on N64 (halo-64)",
+  "url": "https://github.com/JackTulli/halo-64",
+  "platform": "Xbox",
+  "type": "port",
+  "source": "FMHY (RetroReversing)",
+  "needs_assets": "byo",
+  "description": "Halo CE multiplayer on a Nintendo 64 with the Expansion Pak: Halo's decompiled game code (halo-ce-universal) compiled for the VR4300 with a new libdragon renderer; 4-player split screen, bots, Firefight. Needs your own copy of the Xbox game."
+ },
+ {
+  "title": "Halo: Combat Evolved (halo-ce-universal, bnunu)",
+  "url": "https://github.com/bnunu/halo-ce-universal",
+  "platform": "Xbox",
+  "type": "port",
+  "source": "FMHY (RetroReversing)",
+  "needs_assets": "byo",
+  "description": "Port of the Halo CE decompilation (Xbox build 2342) to Linux, Windows and Android, with multiplayer raised to 128 players. Needs your own game files."
+ },
+ {
+  "title": "Halo: Combat Evolved (Chupathingy)",
+  "url": "https://github.com/ChupathingyCE/chupathingyce",
+  "platform": "Xbox",
+  "type": "port",
+  "source": "FMHY (RetroReversing)",
+  "info_url": "https://chupathingy.org",
+  "needs_assets": "byo",
+  "description": "Native port of the Halo CE decompilation for Windows, Mac, Linux (incl. Steam Deck) and Android, built for stability and community multiplayer with its own dedicated servers. Needs your own game files."
+ },
+ {
+  "title": "Ninja Gaiden Black (ngbrecomp)",
+  "url": "https://github.com/gamboozino/ngbrecomp",
+  "platform": "Xbox",
+  "type": "recomp",
+  "source": "FMHY (RetroReversing)",
+  "needs_assets": "byo",
+  "description": "Ninja Gaiden Black (Xbox, 2005) statically recompiled into native Linux and Windows builds with its own Vulkan renderer: steady 60 fps, widescreen/ultrawide, keyboard and mouse, Steam Deck ready. Bring your own copy."
+ },
+ {
+  "title": "Halo: Combat Evolved for PS Vita (halo-ce-vita)",
+  "url": "https://github.com/BirchWoodGod/halo-ce-vita",
+  "platform": "Xbox",
+  "type": "port",
+  "source": "FMHY (RetroReversing)",
+  "needs_assets": "byo",
+  "description": "Native PlayStation Vita port of Halo CE built from the decompilation of the Xbox game. Needs your own game files."
+ },
+ {
+  "title": "Call of Duty: Finest Hour (Finest Hour Remastered)",
+  "url": "https://github.com/crazyriddler/FinestHourRemastered",
+  "platform": "Xbox",
+  "type": "recomp",
+  "source": "FMHY (PCGamingWiki)",
+  "needs_assets": "byo",
+  "description": "Native PC port of Call of Duty: Finest Hour (Xbox, 2004): x86 code statically recompiled to C++, D3D8/DirectSound/kernel reimplemented on D3D12/XAudio2/Win32, plus a remastered renderer. Needs your own game files."
+ },
+ {
+  "title": "WWE 2K14 (wwe2k14-recomp)",
+  "url": "https://github.com/PromethenDev/wwe2k14-recomp",
+  "platform": "Xbox 360",
+  "type": "recomp",
+  "source": "FMHY (PCGamingWiki)",
+  "needs_assets": "byo",
+  "description": "Static recompilation of the Xbox 360 WWE 2K14 for 64-bit Windows and Linux via the ReXGlue SDK. Needs your own game files."
+ },
+ {
+  "title": "Far Cry Instincts (fci-recomp)",
+  "url": "https://github.com/VinceIP/fci-recomp",
+  "platform": "Xbox",
+  "type": "recomp",
+  "source": "FMHY (PCGamingWiki)",
+  "ai_flag": true,
+  "needs_assets": "byo",
+  "description": "Native Windows port of Far Cry Instincts (Xbox, 2005) by static recompilation from your own disc image, with a reimplemented Xbox kernel, Direct3D and audio. Made with extensive AI assistance, per the README."
+ },
+ {
+  "title": "Halo: Combat Evolved on Anbernic RG35XX H (halo-ce-anbernic-rg35xx)",
+  "url": "https://github.com/kirklandsig/halo-ce-anbernic-rg35xx",
+  "platform": "Xbox",
+  "type": "port",
+  "source": "FMHY (RetroReversing)",
+  "info_url": "https://kirklandsig.github.io/halo-ce-anbernic-rg35xx/",
+  "needs_assets": "byo",
+  "description": "Native ARM64 port of the Halo CE decompilation (OpenCE) to the Anbernic RG35XX H and other Allwinner H700 handhelds under Knulli/MuOS: no emulation, online and offline play. Needs your own game files."
+ },
+ {
+  "title": "Terraria Xbox 360 Edition (TerrariaXDK)",
+  "url": "https://github.com/dptug/TerrariaXDK",
+  "platform": "Xbox 360",
+  "type": "decomp",
+  "source": "FMHY (RetroReversing)",
+  "needs_assets": "byo",
+  "description": "Decompiled source code of Terraria: Xbox 360 Edition. Needs your own game files."
+ },
+ {
+  "title": "Mario Kart 64 (MK64 Portable, PSP)",
+  "url": "https://github.com/beckerd/psp_mk64_portable",
+  "platform": "N64",
+  "type": "port",
+  "source": "FMHY (RetroReversing)",
+  "ai_flag": true,
+  "needs_assets": "byo",
+  "description": "Native PSP port of Mario Kart 64 built on the n64decomp/mk64 decompilation: 60 fps single player, 30 fps ad-hoc multiplayer. Builds its data from your own ROM on first start. Made with Claude, per the README."
+ },
+ {
+  "title": "Mario Kart 64 (3DS Port Complete)",
+  "url": "https://github.com/Epic0522/MarioKart64-3DSPort-Complete",
+  "platform": "N64",
+  "type": "port",
+  "source": "FMHY (RetroReversing)",
+  "needs_assets": "byo",
+  "description": "Native Mario Kart 64 port for the Nintendo 3DS family, continuing EstebanPdN's SpaghettiKart-based port with fixes and optional improvements. Needs your own USA ROM."
+ },
+ {
+  "title": "Mario Kart 64 (MKart360, Xbox 360)",
+  "url": "https://github.com/sirdankz/MKart360",
+  "platform": "N64",
+  "type": "port",
+  "source": "FMHY (RetroReversing)",
+  "needs_assets": "byo",
+  "description": "Xbox 360 port of Mario Kart 64 based on the n64decomp/mk64 decompilation, with 2-4 player console-to-console multiplayer and online lobbies. Needs your own ROM."
+ },
+ {
+  "title": "Donkey Kong 64: Recompiled for Android (dk64-recomp-android)",
+  "url": "https://github.com/deivid22srk/dk64-recomp-android",
+  "platform": "N64",
+  "type": "recomp",
+  "source": "FMHY (PortsDR)",
+  "needs_assets": "byo",
+  "description": "Native Android (NDK) port of Donkey Kong 64: Recompiled keeping N64ModernRuntime + RT64 (Vulkan) + SDL2. Needs your own NTSC-U 1.0 ROM."
+ },
+ {
+  "title": "System Shock for Android (system-shock-android)",
+  "url": "https://github.com/raposomiguel50/system-shock-android",
+  "platform": "PC",
+  "type": "port",
+  "source": "FMHY (PortsDR)",
+  "ai_flag": true,
+  "info_url": "https://raposomiguel50.github.io/projects/system-shock-android/",
+  "needs_assets": "byo",
+  "description": "Native Android/ARM64 port of System Shock based on Shockolate, tested on the Retroid Pocket 5. Bring game data from your own copy. ChatGPT assists with programming, per the README."
+ },
+ {
+  "title": "Serious Sam: Next Encounter (Silly ReEncounter)",
+  "url": "https://github.com/takoshero96/Silly-ReEncounter",
+  "platform": "GameCube",
+  "type": "recomp",
+  "source": "FMHY (PCGamingWiki)",
+  "needs_assets": "byo",
+  "description": "Unofficial PC port of Serious Sam: Next Encounter (GameCube, 2004), recompiled to native x64 and built on your PC from your own Rev 1 US or PAL disc image."
+ },
+ {
+  "title": "SSX On Tour (PSP recomp)",
+  "url": "https://github.com/highcmd/ssx-on-tour-psp-recomp",
+  "platform": "PSP",
+  "type": "recomp",
+  "source": "FMHY (PCGamingWiki)",
+  "needs_assets": "byo",
+  "description": "Static recompiler and runtime for the PSP SSX On Tour (ULUS-10042): MIPS code translated to C++, native on x86-64 Linux and Windows with an OpenGL 3.3 renderer. Needs your own UMD dump."
+ },
+ {
+  "title": "Spider-Man 3 (Xbox 360 recomp)",
+  "url": "https://github.com/b4ttycre4se/Spider-Man-3-Recomp",
+  "platform": "Xbox 360",
+  "type": "recomp",
+  "source": "FMHY (PCGamingWiki)",
+  "needs_assets": "byo",
+  "description": "Unofficial recompilation of the Xbox 360 Spider-Man 3 with ReXGlue. Early Windows test build. Needs your own game files."
  }
 ]

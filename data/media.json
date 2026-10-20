@@ -1115,5 +1115,14 @@
    720
   ],
   "screenshot_score": 3
+ },
+ "https://github.com/Gzh0821/pvzge_web": {
+  "screenshot": "screenshots/browser-gzh0821-pvzge-web.jpg",
+  "screenshot_source": "live capture of https://play.pvzge.com/",
+  "screenshot_size": [
+   1280,
+   720
+  ],
+  "screenshot_score": 3
  }
 }
