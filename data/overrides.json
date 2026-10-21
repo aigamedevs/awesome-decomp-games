@@ -303,6 +303,27 @@
   },
   "https://www.netquake.io": {
    "needs_assets": "demo"
+  },
+  "https://github.com/ly05010419/MacNativeGames": {
+   "game_key": "thelegendofzeldatearsofthekingdom"
+  },
+  "https://github.com/rob646464/luigis-mansion-recompiled": {
+   "title": "Luigi's Mansion (Luigi's Mansion Recompiled)",
+   "game_key": "luigismansion",
+   "needs_assets": "byo",
+   "reddit_post": "https://www.reddit.com/r/decomps/comments/1xar6pz/",
+   "reddit_user": "u/chicagogamecollector",
+   "reddit_upvotes": 69,
+   "reddit_comments": 13
+  },
+  "https://github.com/hachi23/unicorn_overlord_pc": {
+   "type": "source-port"
+  },
+  "https://github.com/andrewspode/infernal-machine-decomp-public": {
+   "game_key": "indianajonesandtheinfernalmachine"
+  },
+  "https://github.com/smlu/OpenJones3D": {
+   "game_key": "indianajonesandtheinfernalmachine"
   }
  },
  "browser_verified": {
