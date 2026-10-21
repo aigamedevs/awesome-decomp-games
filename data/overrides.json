@@ -414,6 +414,52 @@
   "https://github.com/flyngmt/ACGC-PC-Port": {
    "play_url": "https://rgc.zone/ports/ac-webport-main/index.html",
    "needs_assets": "byo"
+  },
+  "https://github.com/Nycolazs/LASRecomp-Android-Plus": {
+   "game_key": "thelegendofzeldalinksawakeninglas"
+  },
+  "https://github.com/ibrahimpuri/inFamous-PC-Enhanced": {
+   "game_key": "infamous"
+  },
+  "https://github.com/smm2recomp/smm2recomp": {
+   "game_key": "supermariomaker2"
+  },
+  "https://github.com/TanookiStudios/SuperMarioAllStarsRecomp": {
+   "game_key": "supermarioallstars"
+  },
+  "https://nfl-blitz.com": {
+   "game_key": "nflblitz2000",
+   "type": "source-port"
+  },
+  "https://github.com/historicalsource/nflblitz2000": {
+   "game_key": "nflblitz2000"
+  },
+  "https://github.com/luisxl15/METAL-GEAR-SOLID-2-Sons-of-Liberty-for-Android": {
+   "game_key": "metalgearsolid2sonsofliberty"
+  },
+  "https://github.com/GreenSwampDweller/torchlight-rekindled": {
+   "game_key": "torchlight",
+   "type": "engine-remake"
+  },
+  "https://github.com/Darhkfox/MickeyAndDonaldCollection": {
+   "game_key": "mickeyanddonaldcollection",
+   "type": "source-port"
+  },
+  "https://github.com/euspring1/BlackDefinitiveHDPC": {
+   "game_key": "black",
+   "type": "source-port"
+  },
+  "https://github.com/portingpete/Black-2006-Recomp": {
+   "game_key": "black"
+  },
+  "https://github.com/squiddonaut/pokeblack": {
+   "game_key": "pokemonblack"
+  },
+  "https://github.com/TGP482/BLACK-XBERecomp": {
+   "game_key": "black"
+  },
+  "https://github.com/Spark198rus/black-pc": {
+   "game_key": "black"
   }
  },
  "browser_verified": {
