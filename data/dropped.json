@@ -26,7 +26,7 @@
  {
   "title": "2009scape",
   "url": "https://2009scape.org",
-  "status": 200,
+  "status": 403,
   "reason": "awesome-game-remakes-only, <20 stars"
  },
  {
@@ -614,8 +614,8 @@
  {
   "title": "Barbarian",
   "url": "http://barbarian.1987.free.fr/indexEN.htm",
-  "status": 0,
-  "reason": "dead link"
+  "status": 200,
+  "reason": "awesome-game-remakes-only, <20 stars"
  },
  {
   "title": "Battalion Wars 2",
@@ -3384,12 +3384,6 @@
   "reason": "recomp.fyi-only, <10 stars or fork"
  },
  {
-  "title": "Grand Theft Auto V",
-  "url": "https://web.archive.org/web/20261006055917/https://playgta5.com",
-  "status": 0,
-  "reason": "dead link"
- },
- {
   "title": "Gregory Horror Show",
   "url": "https://github.com/Nathan-R-Og/ghs",
   "status": 200,
@@ -3680,7 +3674,7 @@
  {
   "title": "Hedgewars",
   "url": "http://webwars.link",
-  "status": 0,
+  "status": 400,
   "reason": "dead link"
  },
  {
@@ -6446,7 +6440,7 @@
  {
   "title": "PopRE Bug Tracker",
   "url": "https://www.populous3.info/bugs/my_view_page.php",
-  "status": 200,
+  "status": 403,
   "reason": "awesome-game-remakes-only, <20 stars"
  },
  {
@@ -9084,12 +9078,6 @@
   "reason": "recomp.fyi-only, <10 stars or fork"
  },
  {
-  "title": "Tomb Raider (OpenLara)",
-  "url": "http://xproger.info/projects/OpenLara",
-  "status": 0,
-  "reason": "dead link"
- },
- {
   "title": "Tomba!",
   "url": "https://github.com/dguillot-gh/tomba-android",
   "status": 200,
@@ -9662,7 +9650,7 @@
  {
   "title": "VoxeLibre",
   "url": "https://git.minetest.land/VoxeLibre/VoxeLibre",
-  "status": 200,
+  "status": 403,
   "reason": "awesome-game-remakes-only, <20 stars"
  },
  {
