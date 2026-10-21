@@ -1389,5 +1389,194 @@
   "reddit_upvotes": 64,
   "reddit_comments": 14,
   "description": "Tool that ports PS5 executables to native Linux and Windows: a relinker plus reimplemented PS5 system libraries and a shader recompiler, no emulation. Has a web converter that keeps files on your device. In progress (82% per the Reddit post)."
+ },
+ {
+  "title": "Gran Turismo 4 / God of War II (PS2 Web Recomp)",
+  "url": "https://github.com/snuri00/ps2-web-recomp",
+  "platform": "PS2",
+  "type": "recomp",
+  "source": "Carter54git/Ultimate-Catalog-Of-Web-Game-Ports",
+  "needs_assets": "byo",
+  "description": "PS2 games in the browser by static recompilation: the Emotion Engine code is translated ahead of time to C++ and compiled to WebAssembly, with a WebGPU runtime for the rest of the console. Gran Turismo 4 and God of War II play. No game data included: scripts build a web page on your machine from your own disc image."
+ },
+ {
+  "title": "Plants vs. Zombies (PvZ-Portable)",
+  "url": "https://github.com/wszqkzqk/PvZ-Portable",
+  "play_url": "https://wszqkzqk.github.io/PvZ-Portable/pvz-portable.html",
+  "platform": "PC",
+  "type": "remake",
+  "source": "Carter54git/Ultimate-Catalog-Of-Web-Game-Ports",
+  "needs_assets": "byo",
+  "description": "Community reimplementation of Plants vs. Zombies GOTY Edition for Linux, Windows, macOS, Android, iOS, Switch and WebAssembly. The browser build runs from your own main.pak and properties folder; files stay on your device."
+ },
+ {
+  "title": "Star Wars Jedi Knight: Dark Forces II (OpenJKDF2)",
+  "url": "https://github.com/shinyquagsire23/OpenJKDF2",
+  "play_url": "https://maxthomas.dev/openjkdf2/",
+  "platform": "PC",
+  "type": "remake",
+  "source": "Carter54git/Ultimate-Catalog-Of-Web-Game-Ports",
+  "needs_assets": "demo",
+  "description": "Function-by-function reimplementation of Jedi Knight: Dark Forces II in C, with 64-bit Windows, macOS and Linux ports and an Emscripten/WebAssembly build. Needs your own copy of the game; a WebAssembly demo plays in the browser."
+ },
+ {
+  "title": "GoldenEye 007 (GoldenWeb64)",
+  "url": "https://goldenweb64.com/",
+  "play_url": "https://goldenweb64.com/",
+  "platform": "N64",
+  "type": "browser",
+  "source": "Carter54git/Ultimate-Catalog-Of-Web-Game-Ports",
+  "needs_assets": "byo",
+  "description": "Native port of GoldenEye 007 compiled to WebAssembly with Raylib, running in the browser tab. The site ships only the engine: load your own US ROM."
+ },
+ {
+  "title": "The Operative: No One Lives Forever (playnolf.com)",
+  "url": "https://playnolf.com/",
+  "play_url": "https://playnolf.com/",
+  "platform": "PC",
+  "type": "browser",
+  "source": "Carter54git/Ultimate-Catalog-Of-Web-Game-Ports",
+  "needs_assets": "instant",
+  "description": "No One Lives Forever (2000) in the browser: all 16 missions plus the Game of the Year extras, nothing to install. Keyboard and mouse, touch or controller; an optional account keeps your saves."
+ },
+ {
+  "title": "Need for Speed: Underground 2 (Underground 2 Revived)",
+  "url": "https://nfsu2.xyz/",
+  "play_url": "https://nfsu2.xyz/",
+  "platform": "PC",
+  "type": "browser",
+  "source": "Carter54git/Ultimate-Catalog-Of-Web-Game-Ports",
+  "needs_assets": "instant",
+  "description": "Fan project that plays Need for Speed: Underground 2 (2004) in Chrome and Firefox with WebGPU graphics, widescreen up to 120 fps, controller support, free roam and online races with friends."
+ },
+ {
+  "title": "Team Fortress 2 (web build)",
+  "url": "https://tf2.riddy.workers.dev/",
+  "play_url": "https://tf2.riddy.workers.dev/",
+  "platform": "PC",
+  "type": "browser",
+  "source": "Carter54git/Ultimate-Catalog-Of-Web-Game-Ports",
+  "needs_assets": "instant",
+  "description": "Team Fortress 2 running in a browser tab as a Source engine web build: pick a name and the game downloads and starts."
+ },
+ {
+  "title": "Portal (source-engine Emscripten port)",
+  "url": "https://github.com/weliveinhell/source-engine",
+  "play_url": "https://yikes.pw/portal/",
+  "platform": "PC",
+  "type": "browser",
+  "source": "Carter54git/Ultimate-Catalog-Of-Web-Game-Ports",
+  "needs_assets": "instant",
+  "description": "Emscripten port of the Source engine (fork of nillerusr/source-engine), hosted on yikes.pw; only Portal is tested. Known issues per the README: sound, saves not kept in browser storage, occasional rendering glitches."
+ },
+ {
+  "title": "Super Smash Bros. (Smash.fun)",
+  "url": "https://smash.fun/",
+  "play_url": "https://smash.fun/",
+  "platform": "N64",
+  "type": "browser",
+  "source": "Carter54git/Ultimate-Catalog-Of-Web-Game-Ports",
+  "needs_assets": "byo",
+  "description": "Fan-made browser port of Super Smash Bros. for the Nintendo 64, with a tool to create custom fighters and play them inside the original game. Add your own ROM under ROM Management."
+ },
+ {
+  "title": "Dragon Ball Z: Budokai Tenkaichi 3 (Tenkaichi3Decomp, BT3 Online)",
+  "url": "https://github.com/stufno102/Tenkaichi3Decomp",
+  "play_url": "https://dragonballbt3.online/",
+  "platform": "PS2",
+  "type": "port",
+  "source": "Carter54git/Ultimate-Catalog-Of-Web-Game-Ports",
+  "needs_assets": "instant",
+  "description": "Native PC port of Budokai Tenkaichi 3 (USA) built on the BT3-Decompiled matching decomp, with Vulkan/OpenGL renderers, 1x-8x resolution, widescreen and experimental online play. Its web build runs at dragonballbt3.online: solo or against a friend in private rooms, no install."
+ },
+ {
+  "title": "Kingdom Hearts: Chain of Memories (RepliCoM)",
+  "url": "https://replicom.dev/",
+  "play_url": "https://replicom.dev/",
+  "platform": "GBA",
+  "type": "browser",
+  "source": "Carter54git/Ultimate-Catalog-Of-Web-Game-Ports",
+  "needs_assets": "byo",
+  "description": "Kingdom Hearts: Chain of Memories (GBA) playable in the browser; choose your own ROM file to start."
+ },
+ {
+  "title": "FIFA Street 2 (FIFA Street 2 Online)",
+  "url": "https://fifastreet2.fun/",
+  "play_url": "https://fifastreet2.fun/",
+  "platform": "PS2",
+  "type": "browser",
+  "source": "Carter54git/Ultimate-Catalog-Of-Web-Game-Ports",
+  "needs_assets": "instant",
+  "description": "FIFA Street 2 in the browser on snuri00's PS2 Web Recomp engine: solo or against another player online, private rooms and chat, keyboard or controller, nothing to install."
+ },
+ {
+  "title": "Tekken 5: Dark Resurrection (tkdr recomp)",
+  "url": "https://tkdr-recomp.pages.dev/",
+  "play_url": "https://tkdr-recomp.pages.dev/",
+  "platform": "PSP",
+  "type": "browser",
+  "source": "Carter54git/Ultimate-Catalog-Of-Web-Game-Ports",
+  "needs_assets": "instant",
+  "description": "Tekken: Dark Resurrection (PSP) recompiled to run in the browser. The first run downloads the game (about 1 GB) from the site's own server and keeps it in the browser; you can also load your own ULUS-10139 dump."
+ },
+ {
+  "title": "Harry Potter and the Chamber of Secrets (hp2 web)",
+  "url": "https://hp2.mihaimateias.com/",
+  "play_url": "https://hp2.mihaimateias.com/",
+  "platform": "PC",
+  "type": "browser",
+  "source": "Carter54git/Ultimate-Catalog-Of-Web-Game-Ports",
+  "needs_assets": "byo",
+  "description": "The 2002 PC Harry Potter and the Chamber of Secrets running in the browser: point it at your installed game folder or the PC CD .iso. Save backup and restore built in."
+ },
+ {
+  "title": "Grand Theft Auto: Vice City (reVCDOS)",
+  "url": "https://github.com/Lolendor/reVCDOS",
+  "play_url": "https://dos.zone/revcdos",
+  "platform": "PC",
+  "type": "browser",
+  "source": "Carter54git/Ultimate-Catalog-Of-Web-Game-Ports",
+  "needs_assets": "byo",
+  "description": "DOS.Zone's WebAssembly port of reVC (GTA: Vice City) with a self-hostable server (Docker, PHP or Python). After a DMCA notice the hosted version at dos.zone asks for your own game data."
+ },
+ {
+  "title": "Celeste (celeste-wasm / Webleste)",
+  "url": "https://github.com/MercuryWorkshop/celeste-wasm",
+  "play_url": "https://celeste.r58playz.dev/",
+  "platform": "PC",
+  "type": "browser",
+  "source": "Carter54git/Ultimate-Catalog-Of-Web-Game-Ports",
+  "needs_assets": "byo",
+  "description": "Mostly complete WebAssembly port of Celeste (2018) with full Everest mod support, built on FNA-WASM and a WASM port of MonoMod. Patches the Celeste files you provide."
+ },
+ {
+  "title": "Terraria (terraria-wasm / Terrarium)",
+  "url": "https://github.com/MercuryWorkshop/terraria-wasm",
+  "play_url": "https://terraria.mercurywork.shop/",
+  "platform": "PC",
+  "type": "browser",
+  "source": "Carter54git/Ultimate-Catalog-Of-Web-Game-Ports",
+  "needs_assets": "byo",
+  "description": "Terraria ported to the browser with WebAssembly and fna-wasm-threads. Game assets are not hosted; you supply your own copy of Terraria."
+ },
+ {
+  "title": "Silkroad Online (OpenSRO)",
+  "url": "https://github.com/opensro-dev/opensro",
+  "play_url": "https://opensro.online/",
+  "platform": "PC",
+  "type": "remake",
+  "source": "Carter54git/Ultimate-Catalog-Of-Web-Game-Ports",
+  "needs_assets": "unknown",
+  "description": "Silkroad Online v1.150 (Legend III) rebuilt end to end: a TypeScript/WebGPU browser client, a Go game server and an asset pipeline. Hosted server in closed beta: free invite key from the project's Discord, desktop Chrome or Edge with WebGPU."
+ },
+ {
+  "title": "Heroes of Might and Magic III (vcmi-wasm)",
+  "url": "https://github.com/caiiiycuk/vcmi-wasm",
+  "play_url": "https://dos.zone/homm3/",
+  "platform": "PC",
+  "type": "browser",
+  "source": "Carter54git/Ultimate-Catalog-Of-Web-Game-Ports",
+  "needs_assets": "byo",
+  "description": "DOS.Zone's WebAssembly port of the VCMI engine for Heroes of Might and Magic III: campaigns, custom scenarios, saves and VCMI multiplayer in the browser. Load your own Heroes III Complete resources."
  }
 ]

@@ -154,7 +154,9 @@
    "type": "source-port",
    "title": "The Legend of Zelda: Twilight Princess (Dusklight)",
    "platform": "GameCube",
-   "game_key": "thelegendofzeldatwilightprincess"
+   "game_key": "thelegendofzeldatwilightprincess",
+   "play_url": "https://dusklight.pages.dev/",
+   "needs_assets": "byo"
   },
   "https://github.com/isledecomp/isle-portable": {
    "type": "source-port",
@@ -324,11 +326,100 @@
   },
   "https://github.com/smlu/OpenJones3D": {
    "game_key": "indianajonesandtheinfernalmachine"
+  },
+  "https://github.com/snuri00/ps2-web-recomp": {
+   "game_key": "granturismo4"
+  },
+  "https://github.com/wszqkzqk/PvZ-Portable": {
+   "game_key": "plantsvszombies"
+  },
+  "https://github.com/shinyquagsire23/OpenJKDF2": {
+   "game_key": "starwarsjediknightdarkforcesii"
+  },
+  "https://goldenweb64.com/": {
+   "game_key": "goldeneye007"
+  },
+  "https://playnolf.com/": {
+   "game_key": "theoperativenoonelivesforever"
+  },
+  "https://github.com/nolffan/nolfsrc": {
+   "game_key": "theoperativenoonelivesforever"
+  },
+  "https://nfsu2.xyz/": {
+   "game_key": "needforspeedunderground2"
+  },
+  "https://tf2.riddy.workers.dev/": {
+   "game_key": "teamfortress2"
+  },
+  "https://github.com/weliveinhell/source-engine": {
+   "game_key": "portal"
+  },
+  "https://smash.fun/": {
+   "game_key": "supersmashbros"
+  },
+  "https://github.com/stufno102/Tenkaichi3Decomp": {
+   "game_key": "dragonballzbudokaitenkaichi3",
+   "type": "source-port"
+  },
+  "https://replicom.dev/": {
+   "game_key": "kingdomheartschainofmemories"
+  },
+  "https://fifastreet2.fun/": {
+   "game_key": "fifastreet2"
+  },
+  "https://tkdr-recomp.pages.dev/": {
+   "game_key": "tekken5darkresurrection"
+  },
+  "https://github.com/TheWishin/T5DROnline": {
+   "game_key": "tekken5darkresurrection"
+  },
+  "https://hp2.mihaimateias.com/": {
+   "game_key": "harrypotterandthechamberofsecrets"
+  },
+  "https://github.com/Lolendor/reVCDOS": {
+   "game_key": "grandtheftautovicecity"
+  },
+  "https://github.com/MercuryWorkshop/celeste-wasm": {
+   "game_key": "celeste"
+  },
+  "https://github.com/MercuryWorkshop/terraria-wasm": {
+   "game_key": "terraria"
+  },
+  "https://github.com/opensro-dev/opensro": {
+   "game_key": "silkroadonline"
+  },
+  "https://github.com/caiiiycuk/vcmi-wasm": {
+   "game_key": "heroesofmightandmagiciii"
+  },
+  "https://github.com/perfect-dark-pc-port/perfect_dark": {
+   "play_url": "https://perfectdark.royal-cake-5abc.workers.dev/",
+   "needs_assets": "byo"
+  },
+  "https://github.com/camthesaxman/smb-decomp": {
+   "play_url": "https://monkeyball-online.pages.dev/",
+   "needs_assets": "instant"
+  },
+  "https://github.com/akratch/goldenballoon": {
+   "play_url": "https://akratch.github.io/golden-balloon/",
+   "needs_assets": "byo"
+  },
+  "https://github.com/Rinnegatamante/Crash-Team-Racing-High-Octane": {
+   "play_url": "https://rinnegatamante.github.io/Crash-Team-Racing-High-Octane/",
+   "needs_assets": "byo"
+  },
+  "https://github.com/dubrovskiy-yevhen-stakelogic/gt-2-pc": {
+   "play_url": "https://ydubr-gt2.surge.sh/",
+   "needs_assets": "byo"
+  },
+  "https://github.com/flyngmt/ACGC-PC-Port": {
+   "play_url": "https://rgc.zone/ports/ac-webport-main/index.html",
+   "needs_assets": "byo"
   }
  },
  "browser_verified": {
   "https://ovz-game-production.up.railway.app": "Verified working by Igor on 2026-10-11 (Cloudflare traffic check precedes the game).",
-  "https://solid7s.github.io/Virtual-On-Web/": "Live on 2026-10-19; the 'Copyright notice' the check flags is a footer link to NOTICE.md, not a takedown. Needs your own von.zip ROM."
+  "https://solid7s.github.io/Virtual-On-Web/": "Live on 2026-10-19; the 'Copyright notice' the check flags is a footer link to NOTICE.md, not a takedown. Needs your own von.zip ROM.",
+  "https://dos.zone/revcdos": "Live on 2026-10-21; the page explains the old DMCA takedown, but the port still runs once you provide your own game data (the check flags the DMCA text)."
  },
  "exclude_patterns": [
   "openlara"

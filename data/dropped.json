@@ -26,7 +26,7 @@
  {
   "title": "2009scape",
   "url": "https://2009scape.org",
-  "status": 403,
+  "status": 200,
   "reason": "awesome-game-remakes-only, <20 stars"
  },
  {
@@ -614,8 +614,8 @@
  {
   "title": "Barbarian",
   "url": "http://barbarian.1987.free.fr/indexEN.htm",
-  "status": 200,
-  "reason": "awesome-game-remakes-only, <20 stars"
+  "status": 0,
+  "reason": "dead link"
  },
  {
   "title": "Battalion Wars 2",
@@ -788,8 +788,8 @@
  {
   "title": "Blue Dragon",
   "url": "https://github.com/SolarCookies/reblue",
-  "status": 200,
-  "reason": "recomp.fyi-only, <10 stars or fork"
+  "status": 404,
+  "reason": "dead link"
  },
  {
   "title": "Blue Dragon: Awakened Shadow",
@@ -1654,12 +1654,6 @@
   "url": "https://github.com/sp00nznet/crystalmines2-lynx-recomp",
   "status": 200,
   "reason": "recomp.fyi-only, <10 stars or fork"
- },
- {
-  "title": "CTW-Native",
-  "url": "https://github.com/official-kryo-to/ctw-native",
-  "status": 404,
-  "reason": "dead link"
  },
  {
   "title": "Cube World",
@@ -3026,8 +3020,8 @@
  {
   "title": "FTEQW",
   "url": "https://fte.triptohell.info",
-  "status": 200,
-  "reason": "awesome-game-remakes-only, <20 stars"
+  "status": 0,
+  "reason": "dead link"
  },
  {
   "title": "Fury3",
@@ -3384,6 +3378,12 @@
   "reason": "recomp.fyi-only, <10 stars or fork"
  },
  {
+  "title": "Grand Theft Auto V",
+  "url": "https://web.archive.org/web/20261006055917/https://playgta5.com",
+  "status": 0,
+  "reason": "dead link"
+ },
+ {
   "title": "Gregory Horror Show",
   "url": "https://github.com/Nathan-R-Og/ghs",
   "status": 200,
@@ -3674,7 +3674,7 @@
  {
   "title": "Hedgewars",
   "url": "http://webwars.link",
-  "status": 400,
+  "status": 0,
   "reason": "dead link"
  },
  {
@@ -5214,6 +5214,18 @@
   "reason": "recomp.fyi-only, <10 stars or fork"
  },
  {
+  "title": "Metroid Prime",
+  "url": "https://github.com/AxioDL/metaforce",
+  "status": 404,
+  "reason": "dead link"
+ },
+ {
+  "title": "Metroid Prime 1",
+  "url": "https://github.com/primedecomp/prime",
+  "status": 404,
+  "reason": "dead link"
+ },
+ {
   "title": "Metroid Prime 2",
   "url": "https://github.com/primedecomp/echoes",
   "status": 404,
@@ -6440,7 +6452,7 @@
  {
   "title": "PopRE Bug Tracker",
   "url": "https://www.populous3.info/bugs/my_view_page.php",
-  "status": 403,
+  "status": 200,
   "reason": "awesome-game-remakes-only, <20 stars"
  },
  {
@@ -6884,12 +6896,6 @@
  {
   "title": "Resident Evil Gaiden",
   "url": "https://github.com/wowjinxy/RE-Gaiden",
-  "status": 200,
-  "reason": "recomp.fyi-only, <10 stars or fork"
- },
- {
-  "title": "Resident Evil Outbreak",
-  "url": "https://github.com/RaccoonRecomp/ResidentEvilOutbreakRecompiled",
   "status": 200,
   "reason": "recomp.fyi-only, <10 stars or fork"
  },
@@ -9078,6 +9084,12 @@
   "reason": "recomp.fyi-only, <10 stars or fork"
  },
  {
+  "title": "Tomb Raider (OpenLara)",
+  "url": "http://xproger.info/projects/OpenLara",
+  "status": 0,
+  "reason": "dead link"
+ },
+ {
   "title": "Tomba!",
   "url": "https://github.com/dguillot-gh/tomba-android",
   "status": 200,
@@ -9650,7 +9662,7 @@
  {
   "title": "VoxeLibre",
   "url": "https://git.minetest.land/VoxeLibre/VoxeLibre",
-  "status": 403,
+  "status": 200,
   "reason": "awesome-game-remakes-only, <20 stars"
  },
  {
@@ -10100,8 +10112,8 @@
  {
   "title": "Zandronum",
   "url": "https://zandronum.com",
-  "status": 200,
-  "reason": "awesome-game-remakes-only, <20 stars"
+  "status": 502,
+  "reason": "dead link"
  },
  {
   "title": "Zed Online",

@@ -215,6 +215,7 @@ SOURCES = [
  {"name": "bailo167/awesome-game-mashups (CC0; mods & mashups with 25+ stars)", "url": "https://github.com/bailo167/awesome-game-mashups"},
  {"name": "FMHY-linked lists (fmhy:gaming, PortsDR, PCGamingWiki, RetroReversing; hand-picked)", "url": "https://fmhy.net/"},
  {"name": "portedgames.com (hand-picked)", "url": "https://portedgames.com/"},
+ {"name": "Carter54git/Ultimate-Catalog-Of-Web-Game-Ports (hand-picked browser ports)", "url": "https://github.com/Carter54git/Ultimate-Catalog-Of-Web-Game-Ports"},
  {"name": "r/recomps and r/decomps (established projects, hand-picked)", "url": "https://www.reddit.com/r/recomps/"},
  {"name": "BlueInterlude/awesome-recompilations", "url": "https://github.com/BlueInterlude/awesome-recompilations"},
 ]

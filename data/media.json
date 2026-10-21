@@ -1124,5 +1124,221 @@
    720
   ],
   "screenshot_score": 3
+ },
+ "https://github.com/flyngmt/ACGC-PC-Port": {
+  "screenshot": "screenshots/browser-flyngmt-acgc-pc-port.jpg",
+  "screenshot_source": "live capture of https://rgc.zone/ports/ac-webport-main/index.html",
+  "screenshot_size": [
+   1280,
+   720
+  ],
+  "screenshot_score": 3
+ },
+ "https://github.com/Rinnegatamante/Crash-Team-Racing-High-Octane": {
+  "screenshot": "screenshots/browser-rinnegatamante-crash-team-racing-high-octane.jpg",
+  "screenshot_source": "live capture of https://rinnegatamante.github.io/Crash-Team-Racing-High-Octane/",
+  "screenshot_size": [
+   1280,
+   720
+  ],
+  "screenshot_score": 3
+ },
+ "https://github.com/perfect-dark-pc-port/perfect_dark": {
+  "screenshot": "screenshots/browser-perfect-dark-pc-port-perfect-dark.jpg",
+  "screenshot_source": "live capture of https://perfectdark.royal-cake-5abc.workers.dev/",
+  "screenshot_size": [
+   1280,
+   720
+  ],
+  "screenshot_score": 3
+ },
+ "https://github.com/dubrovskiy-yevhen-stakelogic/gt-2-pc": {
+  "screenshot": "screenshots/browser-dubrovskiy-yevhen-stakelogic-gt-2-pc.jpg",
+  "screenshot_source": "live capture of https://ydubr-gt2.surge.sh/",
+  "screenshot_size": [
+   1280,
+   720
+  ],
+  "screenshot_score": 3
+ },
+ "https://github.com/stufno102/Tenkaichi3Decomp": {
+  "screenshot": "screenshots/browser-stufno102-tenkaichi3decomp.jpg",
+  "screenshot_source": "https://dragonballbt3.online/og-image.png",
+  "screenshot_size": [
+   1200,
+   630
+  ],
+  "screenshot_score": 5
+ },
+ "https://github.com/wszqkzqk/PvZ-Portable": {
+  "screenshot": "screenshots/browser-wszqkzqk-pvz-portable.jpg",
+  "screenshot_source": "live capture of https://wszqkzqk.github.io/PvZ-Portable/pvz-portable.html",
+  "screenshot_size": [
+   1280,
+   720
+  ],
+  "screenshot_score": 3
+ },
+ "https://github.com/shinyquagsire23/OpenJKDF2": {
+  "screenshot": "screenshots/browser-shinyquagsire23-openjkdf2.jpg",
+  "screenshot_source": "live capture of https://maxthomas.dev/openjkdf2/",
+  "screenshot_size": [
+   1280,
+   720
+  ],
+  "screenshot_score": 3
+ },
+ "https://github.com/opensro-dev/opensro": {
+  "screenshot": "screenshots/browser-opensro-dev-opensro.jpg",
+  "screenshot_source": "https://opensro.online/art/share.jpg",
+  "screenshot_size": [
+   1200,
+   630
+  ],
+  "screenshot_score": 5
+ },
+ "https://github.com/Lolendor/reVCDOS": {
+  "screenshot": "screenshots/browser-lolendor-revcdos.jpg",
+  "screenshot_source": "https://dos.zone/images/containers/assets/revcdos-seo.png/48c0ce3b2a5d43d5a05cd32aeb7bfaac.webp",
+  "screenshot_size": [
+   1200,
+   630
+  ],
+  "screenshot_score": 5
+ },
+ "https://github.com/MercuryWorkshop/celeste-wasm": {
+  "screenshot": "screenshots/browser-mercuryworkshop-celeste-wasm.jpg",
+  "screenshot_source": "live capture of https://celeste.r58playz.dev/",
+  "screenshot_size": [
+   1280,
+   720
+  ],
+  "screenshot_score": 3
+ },
+ "https://fifastreet2.fun": {
+  "screenshot": "screenshots/browser-fifa-street-2-fifa-street-2-online.jpg",
+  "screenshot_source": "https://fifastreet2.fun/og-image.png",
+  "screenshot_size": [
+   1200,
+   630
+  ],
+  "screenshot_score": 5
+ },
+ "https://goldenweb64.com": {
+  "screenshot": "screenshots/browser-goldeneye-007-goldenweb64.jpg",
+  "screenshot_source": "live capture of https://goldenweb64.com/",
+  "screenshot_size": [
+   1280,
+   720
+  ],
+  "screenshot_score": 3
+ },
+ "https://hp2.mihaimateias.com": {
+  "screenshot": "screenshots/browser-harry-potter-and-the-chamber-of-secrets-hp2-web.jpg",
+  "screenshot_source": "live capture of https://hp2.mihaimateias.com/",
+  "screenshot_size": [
+   1280,
+   720
+  ],
+  "screenshot_score": 3
+ },
+ "https://github.com/caiiiycuk/vcmi-wasm": {
+  "screenshot": "screenshots/browser-caiiiycuk-vcmi-wasm.jpg",
+  "screenshot_source": "https://dos.zone/images/containers/assets/backgrounds/homm3-vcmi.jpg/6205b73e460ebc5de314ac35e1ed3abc.webp",
+  "screenshot_size": [
+   1200,
+   630
+  ],
+  "screenshot_score": 5
+ },
+ "https://replicom.dev": {
+  "screenshot": "screenshots/browser-kingdom-hearts-chain-of-memories-replicom.jpg",
+  "screenshot_source": "live capture of https://replicom.dev/",
+  "screenshot_size": [
+   1280,
+   720
+  ],
+  "screenshot_score": 3
+ },
+ "https://nfsu2.xyz": {
+  "screenshot": "screenshots/browser-need-for-speed-underground-2-underground-2-revived.jpg",
+  "screenshot_source": "live capture of https://nfsu2.xyz/",
+  "screenshot_size": [
+   1280,
+   720
+  ],
+  "screenshot_score": 3
+ },
+ "https://github.com/weliveinhell/source-engine": {
+  "screenshot": "screenshots/browser-weliveinhell-source-engine.jpg",
+  "screenshot_source": "live capture of https://yikes.pw/portal/",
+  "screenshot_size": [
+   1280,
+   720
+  ],
+  "screenshot_score": 3
+ },
+ "https://smash.fun": {
+  "screenshot": "screenshots/browser-super-smash-bros-smash-fun.jpg",
+  "screenshot_source": "https://smash.fun/og-image.png?v=1",
+  "screenshot_size": [
+   1200,
+   630
+  ],
+  "screenshot_score": 5
+ },
+ "https://tf2.riddy.workers.dev": {
+  "screenshot": "screenshots/browser-team-fortress-2-web-build.jpg",
+  "screenshot_source": "live capture of https://tf2.riddy.workers.dev/",
+  "screenshot_size": [
+   1280,
+   720
+  ],
+  "screenshot_score": 3
+ },
+ "https://tkdr-recomp.pages.dev": {
+  "screenshot": "screenshots/browser-tekken-5-dark-resurrection-tkdr-recomp.jpg",
+  "screenshot_source": "live capture of https://tkdr-recomp.pages.dev/",
+  "screenshot_size": [
+   1280,
+   720
+  ],
+  "screenshot_score": 3
+ },
+ "https://playnolf.com": {
+  "screenshot": "screenshots/browser-the-operative-no-one-lives-forever-playnolf-com.jpg",
+  "screenshot_source": "https://playnolf.com/assets/img/splash.webp",
+  "screenshot_size": [
+   640,
+   480
+  ],
+  "screenshot_score": 3
+ },
+ "https://github.com/MercuryWorkshop/terraria-wasm": {
+  "screenshot": "screenshots/browser-mercuryworkshop-terraria-wasm.jpg",
+  "screenshot_source": "live capture of https://terraria.mercurywork.shop/",
+  "screenshot_size": [
+   1280,
+   720
+  ],
+  "screenshot_score": 3
+ },
+ "https://github.com/akratch/goldenballoon": {
+  "screenshot": "screenshots/browser-akratch-goldenballoon.jpg",
+  "screenshot_source": "https://akratch.github.io/golden-balloon/assets/og.jpg",
+  "screenshot_size": [
+   1200,
+   630
+  ],
+  "screenshot_score": 5
+ },
+ "https://github.com/camthesaxman/smb-decomp": {
+  "screenshot": "screenshots/browser-camthesaxman-smb-decomp.jpg",
+  "screenshot_source": "live capture of https://monkeyball-online.pages.dev/",
+  "screenshot_size": [
+   1280,
+   720
+  ],
+  "screenshot_score": 3
  }
 }
