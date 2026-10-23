@@ -508,6 +508,23 @@
   "https://gitlab.com/Zusk/dotr-decompilation": {
    "game_key": "yugiohtheduelistsoftheroses",
    "type": "decompilation"
+  },
+  "https://github.com/droogie/bbhost": {
+   "game_key": "bloodborne",
+   "type": "source-port"
+  },
+  "https://github.com/OpenSmash-Ultimate/WindowSmash": {
+   "game_key": "supersmashbrosultimateopensmashultimate"
+  },
+  "https://github.com/Castlesea/infamous-second-son-pc-port": {
+   "game_key": "infamoussecondson"
+  },
+  "https://github.com/re-rac/rerac": {
+   "game_key": "ratchetandclank"
+  },
+  "https://github.com/YYOzcan/tokisaki-port": {
+   "type": "static-recomp",
+   "game_key": "killzone2"
   }
  },
  "browser_verified": {

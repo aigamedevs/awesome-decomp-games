@@ -1391,6 +1391,19 @@
   "description": "Tool that ports PS5 executables to native Linux and Windows: a relinker plus reimplemented PS5 system libraries and a shader recompiler, no emulation. Has a web converter that keeps files on your device. In progress (82% per the Reddit post)."
  },
  {
+  "title": "nxnative",
+  "url": "https://github.com/seedds/nxnative",
+  "platform": "Switch",
+  "type": "tool",
+  "source": "reddit:r/NativePortsOniOS",
+  "reddit_post": "https://www.reddit.com/r/NativePortsOniOS/comments/1xck57y/",
+  "reddit_user": "u/jadonokoh86",
+  "reddit_upvotes": 19,
+  "reddit_comments": 7,
+  "needs_assets": "byo",
+  "description": "General host that turns Switch games into native iOS, iPadOS and macOS apps: an NSP folder becomes an unsigned IPA via an NSO rewriter, a Horizon HLE host and an NVN-to-Metal graphics layer. Not one game; works per title (the linked Reddit post shows Super Mario Odyssey on iOS). Needs your own game dump and keys."
+ },
+ {
   "title": "Gran Turismo 4 / God of War II (PS2 Web Recomp)",
   "url": "https://github.com/snuri00/ps2-web-recomp",
   "platform": "PS2",
@@ -1869,5 +1882,55 @@
   "needs_assets": "byo",
   "info_url": "https://zusk.neocities.org/dotr_decomp",
   "description": "Byte-matching decompilation of Yu-Gi-Oh! The Duelists of the Roses (PS2, NTSC-U SLUS_205.15): all 2,568 game functions are in C that compiles to the original bytes and the whole executable rebuilds byte-identical. Needs your own disc. On GitLab."
+ },
+ {
+  "title": "Bloodborne (bbhost)",
+  "url": "https://github.com/droogie/bbhost",
+  "platform": "PS4",
+  "type": "port",
+  "source": "Fulton launcher lists",
+  "needs_assets": "byo",
+  "ai_flag": true,
+  "description": "Translation layer that runs Bloodborne's unmodified 1.09 executable on Windows, Linux and Steam Deck: all 660 imported PS4 system functions reimplemented, graphics moving from emulation to native Vulkan with GCN shaders decompiled to SPIR-V. Its author calls it playable, with any resolution and ultrawide, FSR 1, 30-120 fps or uncapped, keyboard and mouse, mods and online play on a private server. AI-assisted (most commits co-authored by Claude). Needs your own 1.09 dump."
+ },
+ {
+  "title": "Super Smash Bros. Ultimate (WindowSmash)",
+  "url": "https://github.com/OpenSmash-Ultimate/WindowSmash",
+  "platform": "Switch",
+  "type": "recomp",
+  "source": "Fulton launcher lists",
+  "needs_assets": "byo",
+  "ai_flag": true,
+  "description": "Experimental native Windows port of Smash Ultimate 13.0.5 by static AArch64 recompilation to C, with a Direct3D 11 runtime (experimental Linux via DXVK and a Metal renderer for Apple silicon). Up to eight controllers, owned DLC fighters, Local Wireless netplay through an internet relay. Early: menus and matches run but much is untested. Separate project from ssbu-recomp in the same org. AI-assisted. Builds from your own dump, keys and firmware."
+ },
+ {
+  "title": "inFAMOUS Second Son (Castlesea)",
+  "url": "https://github.com/Castlesea/infamous-second-son-pc-port",
+  "platform": "PS4",
+  "type": "port",
+  "source": "Fulton launcher lists",
+  "needs_assets": "byo",
+  "ai_flag": true,
+  "description": "Experimental native Windows port of the PS4 game, separate from iss_pc: original x86-64 code runs directly with a custom runtime, GPU derived from shadPS4 and moving to native Vulkan. Playable (story saves, free roam), with a launcher for window mode, frame cap up to 240 fps, FSR 1, controls and DLC. AI-assisted (Claude). Bring your own game."
+ },
+ {
+  "title": "Ratchet & Clank (ReRAC)",
+  "url": "https://github.com/re-rac/rerac",
+  "platform": "PS2",
+  "type": "remake",
+  "source": "Fulton launcher lists",
+  "needs_assets": "byo",
+  "ai_flag": true,
+  "description": "ReRAC: a rewrite of Ratchet & Clank (2002) as a native PC game in Rust on the Bevy engine, the main repo behind rerac-launcher. Early: every level loads and renders but it isn't playable start to finish yet. Alpha builds for Windows, Linux and macOS. AI-assisted. Needs your own US PS2 disc (SCUS-97199)."
+ },
+ {
+  "title": "Killzone 2 (Tokisaki Port)",
+  "url": "https://github.com/YYOzcan/tokisaki-port",
+  "platform": "PS3",
+  "type": "recomp",
+  "source": "Fulton launcher lists",
+  "needs_assets": "byo",
+  "ai_flag": true,
+  "description": "Static recompilation of Killzone 2 for PC with ps3recomp, Linux and Vulkan first. Work in progress, not playable: it boots, walks its menus up to the start of a campaign, but the first in-level frames stall. AI-assisted (Claude). Needs your own copy with a decrypted EBOOT."
  }
 ]
