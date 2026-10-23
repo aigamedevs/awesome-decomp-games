@@ -1167,7 +1167,7 @@
   "title": "Castlevania 64 (Castlevania 64 Recompiled)",
   "url": "https://github.com/DankZoneStudios/CV64Recomp",
   "status": 200,
-  "reason": "quiver-only, <100 stars"
+  "reason": "recompendium (+registries) only, <10 stars, fork or not on GitHub"
  },
  {
   "title": "Castlevania Chronicles",
@@ -1653,7 +1653,7 @@
   "title": "Crash Team Racing (Crash Team Racing: Turbocharged)",
   "url": "https://github.com/CameronRedmore/Crash-Team-Racing-Turbocharged",
   "status": 200,
-  "reason": "unbaked-only, <10 stars, fork or not on GitHub"
+  "reason": "recompendium (+registries) only, <10 stars, fork or not on GitHub"
  },
  {
   "title": "Crash Team Racing (CTR Native Android)",
@@ -2062,6 +2062,12 @@
   "url": "https://github.com/YEperik/ff7-doc-decomp",
   "status": 404,
   "reason": "dead link"
+ },
+ {
+  "title": "Disgaea D2: A Brighter Darkness",
+  "url": "https://github.com/LUUKASR1/disgaea-d2-recomp-windows",
+  "status": 200,
+  "reason": "recompendium (+registries) only, <10 stars, fork or not on GitHub"
  },
  {
   "title": "Disruptor",
@@ -2968,6 +2974,12 @@
   "url": "https://github.com/FireEmblemUniverse/fireemblem6j",
   "status": 200,
   "reason": "unbaked-only, <10 stars, fork or not on GitHub"
+ },
+ {
+  "title": "Fire Emblem: The Sacred Stones",
+  "url": "https://github.com/laqieer/fireemblem8u",
+  "status": 200,
+  "reason": "recompendium (+registries) only, <10 stars, fork or not on GitHub"
  },
  {
   "title": "Five Nights at Freddy's",
@@ -4162,6 +4174,12 @@
   "url": "https://github.com/dreamsailing59-ops/ijatim",
   "status": 200,
   "reason": "recomp.fyi-only, <10 stars or fork"
+ },
+ {
+  "title": "inFAMOUS 2 (juans-collab)",
+  "url": "https://github.com/juans-collab/infamous-2-recomp",
+  "status": 404,
+  "reason": "dead link"
  },
  {
   "title": "Initial D Special Stage",
@@ -8256,12 +8274,6 @@
   "reason": "recomp.fyi-only, <10 stars or fork"
  },
  {
-  "title": "Street Fighter Alpha 2 (CPS-2 Recomp)",
-  "url": "https://github.com/tmcleroy/cps2recomp",
-  "status": 200,
-  "reason": "quiver-only, <100 stars"
- },
- {
   "title": "Street Fighter Alpha 2 Gold",
   "url": "https://github.com/guimaraf/psxrecomp-alpha2gold",
   "status": 200,
@@ -8415,13 +8427,13 @@
   "title": "Super Mario 64 (Render96ex)",
   "url": "https://github.com/Render96/Render96ex",
   "status": 200,
-  "reason": "unbaked-only, <10 stars, fork or not on GitHub"
+  "reason": "recompendium (+registries) only, <10 stars, fork or not on GitHub"
  },
  {
   "title": "Super Mario 64 (sm64plus)",
   "url": "https://github.com/MorsGames/sm64plus",
   "status": 200,
-  "reason": "unbaked-only, <10 stars, fork or not on GitHub"
+  "reason": "recompendium (+registries) only, <10 stars, fork or not on GitHub"
  },
  {
   "title": "Super Mario 64 (sm64rt (ray-traced fork))",

@@ -73,7 +73,8 @@
   "https://github.com/LightVelox/sotc-vibe-pc",
   "https://github.com/bwapi/bwapi",
   "https://github.com/libsm64/libsm64-blender",
-  "https://github.com/ares-emulator/ares"
+  "https://github.com/ares-emulator/ares",
+  "https://github.com/akratch/golden-balloon"
  ],
  "set": {
   "https://github.com/Warzone2100/warzone2100": {
@@ -525,6 +526,12 @@
   "https://github.com/YYOzcan/tokisaki-port": {
    "type": "static-recomp",
    "game_key": "killzone2"
+  },
+  "https://github.com/BeemerCodes/MidnightclubLA-Recomp": {
+   "game_key": "midnightclublosangeles"
+  },
+  "https://github.com/Sunlitspace542/ultrastarfox": {
+   "game_key": "starfox"
   }
  },
  "browser_verified": {

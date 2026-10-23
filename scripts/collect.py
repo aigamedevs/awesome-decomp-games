@@ -193,6 +193,15 @@ if have("portsdr.json"):
         r = add("portsdr", t, c["url"], c.get("platform", ""), "port", "")
         if r and c.get("ai"): r["ai_flag"] = True
 
+# 8d. Recompendium catalogue (raw/recompendium.json from scripts/fetch_recompendium.py; CC BY-SA 4.0, facts only, no prose);
+#     build.py keeps recompendium-only entries with 10+ stars that are on GitHub and not forks
+if have("recompendium.json"):
+    _known = {url_key(x) for r in records.values() for x in (r["url"], r.get("play_url"), r.get("info_url")) if x}
+    for c in json.load(open(os.path.join(RAW, "recompendium.json"))):
+        if url_key(c["url"]) not in records and url_key(c["url"]) in _known: continue  # already linked from a browser/manual entry
+        r = add("recompendium", c["name"], c["url"], c.get("platform", ""), c.get("hint", ""), "")
+        if r and c.get("ai"): r["ai_flag"] = True
+
 # 9. source tags (data/source_tags.json): {"source-id": [urls]} -> tag records whose url/play_url matches
 tp = os.path.join(ROOT, "data", "source_tags.json")
 if os.path.exists(tp):

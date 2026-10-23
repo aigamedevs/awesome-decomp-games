@@ -18,10 +18,13 @@ def main():
     out = []
     for i in items:
         if i["slug"] in skip: continue
-        try:
-            p = requests.get(f"{API}/apps/{i['slug']}", headers=UA, timeout=30).json().get("project") or {}
-        except Exception as ex:
-            print("WARN detail", i["slug"], ex); continue
+        p = None
+        for attempt in range(4):  # retry transient SSL EOF / connection errors so entries aren't dropped
+            try:
+                p = requests.get(f"{API}/apps/{i['slug']}", headers=UA, timeout=30).json().get("project") or {}; break
+            except Exception as ex:
+                print("WARN detail", i["slug"], f"attempt {attempt+1}:", ex); time.sleep(3 * (attempt + 1))
+        if p is None: continue
         if p.get("provider") != "github" or not p.get("repository"): continue
         out.append({"slug": i["slug"], "name": i["name"], "project": i.get("projectName") or p.get("name"),
                     "repo": p["repository"], "aiLevel": i.get("aiLevel"), "tags": i.get("tags", []),
