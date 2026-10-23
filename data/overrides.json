@@ -460,6 +460,38 @@
   },
   "https://github.com/Spark198rus/black-pc": {
    "game_key": "black"
+  },
+  "https://github.com/Revivedx/SavageWindRecomp": {
+   "game_key": "thelegendofzeldabreathofthewild",
+   "type": "static-recomp"
+  },
+  "https://github.com/Nycolazs/ACNHRecomp": {
+   "game_key": "animalcrossingnewhorizons",
+   "type": "static-recomp"
+  },
+  "https://github.com/Mango77x/MHForever": {
+   "game_key": "monsterhunterportable2ndg",
+   "type": "static-recomp"
+  },
+  "https://github.com/thefixinhixon/UltraCombo": {
+   "game_key": "killerinstinct",
+   "type": "static-recomp"
+  },
+  "https://github.com/ClickingMaster/pokeheartgold-single-screen": {
+   "game_key": "pokemonsoulsilver",
+   "type": "decompilation"
+  },
+  "https://github.com/wootbeer/snprecomp": {
+   "game_key": "sinandpunishment",
+   "type": "static-recomp"
+  },
+  "https://gitlab.com/tpw-decomp/tpw-decomp": {
+   "game_key": "opentpw",
+   "type": "decompilation"
+  },
+  "https://gitlab.com/tpw-decomp/tpw-port": {
+   "game_key": "opentpw",
+   "type": "source-port"
   }
  },
  "browser_verified": {
