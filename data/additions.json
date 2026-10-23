@@ -1816,5 +1816,58 @@
   "needs_assets": "byo",
   "ai_flag": true,
   "description": "Work-in-progress port of Sim Theme Park / Theme Park World for Apple Silicon Macs, built on tpw-decomp: launcher that checks your Mac and PC CDs, SDL3/OpenGL platform layer and 53 listed fixes. Both editions play from the lobby into a park; 4K, 120 fps+ and 16:9 widescreen per the Reddit post. Needs your own discs. On GitLab."
+ },
+ {
+  "title": "Midnight Club 3: DUB Edition (mcdub3-nx)",
+  "url": "https://github.com/laureladastra/mcdub3-nx",
+  "platform": "Xbox",
+  "type": "recomp",
+  "source": "reddit:r/decomps",
+  "reddit_post": "https://www.reddit.com/r/decomps/comments/1xcj55g/",
+  "reddit_user": "u/laurekamalandua",
+  "reddit_upvotes": 76,
+  "reddit_comments": 14,
+  "needs_assets": "byo",
+  "description": "Work-in-progress static recompilation of the original Xbox release of Midnight Club 3: DUB Edition, lifted to C with xboxrecomp and built natively for Nintendo Switch, Linux and macOS (arm64) with an OpenGL renderer, no emulation. Version 0.1.0; needs your own game files."
+ },
+ {
+  "title": "Crash of the Titans (CrashRecomp Definitive Edition)",
+  "url": "https://github.com/VitoMiguelF/crashott-pc",
+  "platform": "Xbox 360",
+  "type": "recomp",
+  "source": "reddit:r/decomps",
+  "reddit_post": "https://www.reddit.com/r/decomps/comments/1xcrmq9/",
+  "reddit_user": "u/VitoMigs98",
+  "reddit_upvotes": 58,
+  "reddit_comments": 5,
+  "needs_assets": "byo",
+  "description": "Native Windows port of Crash of the Titans (Xbox 360) by static recompilation with XenonRecomp, with a runtime replacing graphics, audio, input, files and saves. Adds DLSS/FSR, PC controls, subtitles, Brazilian Portuguese and mod support. The installer builds from your own copy."
+ },
+ {
+  "title": "Ace Combat Infinity (static recomp)",
+  "url": "https://github.com/The-OPERATIONS-Team/Ace-combat-infinity-recomp",
+  "platform": "PS3",
+  "type": "recomp",
+  "source": "reddit:r/decomps",
+  "reddit_post": "https://www.reddit.com/r/decomps/comments/1xcqams/",
+  "reddit_user": "u/NaturalAilment",
+  "reddit_upvotes": 8,
+  "reddit_comments": 3,
+  "needs_assets": "byo",
+  "description": "Static recompilation of the PS3 Ace Combat Infinity (NPUB31347) to native x86-64 Windows: PowerPC and SPU code translated to C ahead of time, PS3 system libraries reimplemented, Vulkan renderer. Answers the shut-down online calls locally and removes the fuel requirement so the campaign plays offline. Needs your own copy."
+ },
+ {
+  "title": "Yu-Gi-Oh! The Duelists of the Roses (dotr-decompilation)",
+  "url": "https://gitlab.com/Zusk/dotr-decompilation",
+  "platform": "PS2",
+  "type": "decomp",
+  "source": "reddit:r/decomps",
+  "reddit_post": "https://www.reddit.com/r/decomps/comments/1xcqb81/",
+  "reddit_user": "u/Phlogiston_Dreams",
+  "reddit_upvotes": 18,
+  "reddit_comments": 6,
+  "needs_assets": "byo",
+  "info_url": "https://zusk.neocities.org/dotr_decomp",
+  "description": "Byte-matching decompilation of Yu-Gi-Oh! The Duelists of the Roses (PS2, NTSC-U SLUS_205.15): all 2,568 game functions are in C that compiles to the original bytes and the whole executable rebuilds byte-identical. Needs your own disc. On GitLab."
  }
 ]

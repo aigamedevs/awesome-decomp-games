@@ -32,7 +32,7 @@
  {
   "title": "2009scape",
   "url": "https://2009scape.org",
-  "status": 403,
+  "status": 200,
   "reason": "awesome-game-remakes-only, <20 stars"
  },
  {
@@ -638,8 +638,8 @@
  {
   "title": "Barbarian",
   "url": "http://barbarian.1987.free.fr/indexEN.htm",
-  "status": 200,
-  "reason": "awesome-game-remakes-only, <20 stars"
+  "status": 0,
+  "reason": "dead link"
  },
  {
   "title": "Battalion Wars 2",
@@ -758,8 +758,8 @@
  {
   "title": "Blast Corps",
   "url": "https://github.com/SlaveOfIDO/blastcorps-recomp",
-  "status": 404,
-  "reason": "dead link"
+  "status": 200,
+  "reason": "recomp.fyi-only, <10 stars or fork"
  },
  {
   "title": "blips",
@@ -1564,6 +1564,12 @@
   "url": "https://github.com/liolu/cooking-mama-decomp",
   "status": 200,
   "reason": "recomp.fyi-only, <10 stars or fork"
+ },
+ {
+  "title": "Crackdown",
+  "url": "https://github.com/Unowa001/crackdown-recomp",
+  "status": 404,
+  "reason": "dead link"
  },
  {
   "title": "Crash 'n Burn",
@@ -3496,6 +3502,12 @@
   "url": "https://github.com/Jenish094/GTA4Recomp",
   "status": 200,
   "reason": "recomp.fyi-only, <10 stars or fork"
+ },
+ {
+  "title": "Grand Theft Auto V",
+  "url": "https://web.archive.org/web/20261006055917/https://playgta5.com",
+  "status": 0,
+  "reason": "dead link"
  },
  {
   "title": "Grand Theft Auto: Vice City",
@@ -6668,7 +6680,7 @@
  {
   "title": "PopRE Bug Tracker",
   "url": "https://www.populous3.info/bugs/my_view_page.php",
-  "status": 403,
+  "status": 200,
   "reason": "awesome-game-remakes-only, <20 stars"
  },
  {
@@ -7058,12 +7070,6 @@
  {
   "title": "Real Steel",
   "url": "https://github.com/thefixinhixon/RealSteelRecomp",
-  "status": 200,
-  "reason": "recomp.fyi-only, <10 stars or fork"
- },
- {
-  "title": "Real Steel",
-  "url": "https://github.com/tokeneffortports/ReCompiledSteel",
   "status": 200,
   "reason": "recomp.fyi-only, <10 stars or fork"
  },
@@ -7494,6 +7500,12 @@
   "reason": "awesome-game-remakes-only, <20 stars"
  },
  {
+  "title": "Sexy Parodius",
+  "url": "https://github.com/NJH-1001/SexyParoRecomp",
+  "status": 200,
+  "reason": "recomp.fyi-only, <10 stars or fork"
+ },
+ {
   "title": "Shadow the Hedgehog",
   "url": "https://github.com/dev-camo/shadow-decomp",
   "status": 200,
@@ -7784,12 +7796,6 @@
  {
   "title": "Sonic Adventure",
   "url": "https://github.com/consolesplayingconsoles/sonic-adventure-decomp",
-  "status": 200,
-  "reason": "recomp.fyi-only, <10 stars or fork"
- },
- {
-  "title": "Sonic and the Black Knight",
-  "url": "https://github.com/yunophilia/BlackKnightRecomp",
   "status": 200,
   "reason": "recomp.fyi-only, <10 stars or fork"
  },
@@ -9348,6 +9354,12 @@
   "reason": "recomp.fyi-only, <10 stars or fork"
  },
  {
+  "title": "Tomb Raider (OpenLara)",
+  "url": "http://xproger.info/projects/OpenLara",
+  "status": 0,
+  "reason": "dead link"
+ },
+ {
   "title": "Tomba!",
   "url": "https://github.com/dguillot-gh/tomba-android",
   "status": 200,
@@ -9914,7 +9926,7 @@
  {
   "title": "VoxeLibre",
   "url": "https://git.minetest.land/VoxeLibre/VoxeLibre",
-  "status": 403,
+  "status": 200,
   "reason": "awesome-game-remakes-only, <20 stars"
  },
  {

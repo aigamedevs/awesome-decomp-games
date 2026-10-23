@@ -492,6 +492,22 @@
   "https://gitlab.com/tpw-decomp/tpw-port": {
    "game_key": "opentpw",
    "type": "source-port"
+  },
+  "https://github.com/laureladastra/mcdub3-nx": {
+   "game_key": "midnightclub3dubedition",
+   "type": "static-recomp"
+  },
+  "https://github.com/VitoMiguelF/crashott-pc": {
+   "game_key": "crashofthetitansmojorecomp",
+   "type": "static-recomp"
+  },
+  "https://github.com/The-OPERATIONS-Team/Ace-combat-infinity-recomp": {
+   "game_key": "acecombatinfinity",
+   "type": "static-recomp"
+  },
+  "https://gitlab.com/Zusk/dotr-decompilation": {
+   "game_key": "yugiohtheduelistsoftheroses",
+   "type": "decompilation"
   }
  },
  "browser_verified": {
