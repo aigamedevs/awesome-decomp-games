@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T19:52:34Z",
+ "generated_at": "2026-10-23T19:58:15Z",
  "total": 2405,
  "browser_playable": 69,
  "unique_games": 2040,
@@ -54,6 +54,13 @@
    "description": "Recompilers, launchers and helpers around these projects."
   }
  },
+ "license": {
+  "data": "CC-BY-SA-4.0",
+  "data_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "code": "MIT",
+  "note": "All list data (README.md, data/*.json) is licensed CC BY-SA 4.0 because it includes facts adapted from Recompendium (recompendium.com, CC BY-SA 4.0), which requires derivatives to share alike. Compiled from the sources listed in 'sources'; filtered and modified by us. Scripts and website code are MIT.",
+  "attribution": "awesome-decomp-games contributors, compiled from the listed sources (Recompendium, recomp.fyi, Quiver, unbaked.games, portsdr.com, awesome-game-remakes, awesome-game-mashups and others)"
+ },
  "sources": [
   {
    "name": "SamidyFR/Game-Decompilations",
@@ -88,7 +95,7 @@
    "url": "https://portsdr.com/"
   },
   {
-   "name": "Recompendium (recomps, ports and decomps with >=10 stars; facts only, filtered and modified by us; CC BY-SA 4.0)",
+   "name": "Recompendium (recomps, ports and decomps with >=10 stars; facts only, filtered and modified by us; upstream CC BY-SA 4.0)",
    "url": "https://recompendium.com/"
   },
   {
@@ -104,7 +111,7 @@
    "url": "https://x.com/RadiantOpti/status/2108068632991256995"
   },
   {
-   "name": "bailo167/awesome-game-mashups (CC0; mods & mashups with 25+ stars)",
+   "name": "bailo167/awesome-game-mashups (mods & mashups with 25+ stars)",
    "url": "https://github.com/bailo167/awesome-game-mashups"
   },
   {

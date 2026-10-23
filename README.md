@@ -2326,7 +2326,7 @@ Recompilers, launchers and helpers around these projects.
 
 ## Mods & mashups
 
-18 released mods and crossovers built on decomps, libsm64 and reverse-engineered rewrites (25+ stars, playable now). They're separate from the topic lists above and from Top picks. Curated from [awesome-game-mashups](https://github.com/bailo167/awesome-game-mashups) (CC0). All need your own copies of the games involved.
+18 released mods and crossovers built on decomps, libsm64 and reverse-engineered rewrites (25+ stars, playable now). They're separate from the topic lists above and from Top picks. Curated from [awesome-game-mashups](https://github.com/bailo167/awesome-game-mashups). All need your own copies of the games involved.
 
 ### libsm64 / SM64 decomp
 
@@ -2791,11 +2791,11 @@ Seeded from, and refreshed against, these lists (thank you to their maintainers)
 - [Quiver Launcher catalog (entries with >=100 stars)](https://quiverlauncher.com/)
 - [unbaked.games registry (GitHub entries with >=10 stars)](https://unbaked.games/)
 - [portsdr.com (GitHub entries with >=10 stars)](https://portsdr.com/)
-- [Recompendium (recomps, ports and decomps with >=10 stars; facts only, filtered and modified by us; CC BY-SA 4.0)](https://recompendium.com/)
+- [Recompendium (recomps, ports and decomps with >=10 stars; facts only, filtered and modified by us; upstream CC BY-SA 4.0)](https://recompendium.com/)
 - [Fulton launcher lists (hand-picked)](https://github.com/TriwindBryan/fulton)
 - [radek-sprta/awesome-game-remakes](https://github.com/radek-sprta/awesome-game-remakes)
 - [X post by @RadiantOpti (browser games list)](https://x.com/RadiantOpti/status/2108068632991256995)
-- [bailo167/awesome-game-mashups (CC0; mods & mashups with 25+ stars)](https://github.com/bailo167/awesome-game-mashups)
+- [bailo167/awesome-game-mashups (mods & mashups with 25+ stars)](https://github.com/bailo167/awesome-game-mashups)
 - [FMHY-linked lists (fmhy:gaming, PortsDR, PCGamingWiki, RetroReversing; hand-picked)](https://fmhy.net/)
 - [portedgames.com (hand-picked)](https://portedgames.com/)
 - [Carter54git/Ultimate-Catalog-Of-Web-Game-Ports (hand-picked browser ports)](https://github.com/Carter54git/Ultimate-Catalog-Of-Web-Game-Ports)
@@ -2812,4 +2812,4 @@ This repository is an index of third-party open-source projects. It does **not**
 
 ## License
 
-The list and data are released under [CC0 1.0](LICENSE), except facts taken from [Recompendium](https://recompendium.com/) (entries whose `sources` include `recompendium` in [`data/games.json`](data/games.json)): that material is filtered and modified by us and shared under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), like its source. The scripts and website code are under the [MIT License](LICENSE-CODE).
+All list data (this README and the files in [`data/`](data)) is licensed under [CC BY-SA 4.0](LICENSE). The reason: the list includes facts adapted from [Recompendium](https://recompendium.com/), whose catalogue is CC BY-SA 4.0, and that license requires adaptations to be shared alike, so we apply it to the whole dataset. The data was compiled, filtered and modified by us from the lists credited under [Sources](#sources), including Recompendium, recomp.fyi, Quiver, unbaked.games, portsdr.com, [awesome-game-remakes](https://github.com/radek-sprta/awesome-game-remakes), [awesome-game-mashups](https://github.com/bailo167/awesome-game-mashups) and the others listed there. If you reuse the data, credit "awesome-decomp-games and its sources", link back here, and share your adaptations under CC BY-SA 4.0. The scripts and website code are under the [MIT License](LICENSE-CODE).

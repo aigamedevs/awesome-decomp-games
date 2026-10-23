@@ -199,7 +199,7 @@ def main():
            "total": len(out), "browser_playable": doc_browser, "unique_games": len({e["game_key"] for e in out}), "counts": counts, "inactive_counts": inactive_counts, "inactive_cutoff": cutoff,
            "active": sum(counts.values()), "inactive": sum(inactive_counts.values()),
            "topics": {k: {"name": v[0], "description": v[1]} for k, v in TOPICS.items()},
-           "sources": SOURCES, "games": out, "mods": mods}
+           "license": LICENSE_META, "sources": SOURCES, "games": out, "mods": mods}
     json.dump(doc, open(D("data/games.json"), "w"), indent=1, ensure_ascii=False)
     json.dump(dropped, open(D("data/dropped.json"), "w"), indent=1, ensure_ascii=False)
     print(f"games: {len(out)} (unique titles {doc['unique_games']}), dropped {len(dropped)}; counts {counts}")
@@ -213,15 +213,21 @@ SOURCES = [
  {"name": "Quiver Launcher catalog (entries with >=100 stars)", "url": "https://quiverlauncher.com/"},
  {"name": "unbaked.games registry (GitHub entries with >=10 stars)", "url": "https://unbaked.games/"},
  {"name": "portsdr.com (GitHub entries with >=10 stars)", "url": "https://portsdr.com/"},
- {"name": "Recompendium (recomps, ports and decomps with >=10 stars; facts only, filtered and modified by us; CC BY-SA 4.0)", "url": "https://recompendium.com/"},
+ {"name": "Recompendium (recomps, ports and decomps with >=10 stars; facts only, filtered and modified by us; upstream CC BY-SA 4.0)", "url": "https://recompendium.com/"},
  {"name": "Fulton launcher lists (hand-picked)", "url": "https://github.com/TriwindBryan/fulton"},
  {"name": "radek-sprta/awesome-game-remakes", "url": "https://github.com/radek-sprta/awesome-game-remakes"},
  {"name": "X post by @RadiantOpti (browser games list)", "url": "https://x.com/RadiantOpti/status/2108068632991256995"},
- {"name": "bailo167/awesome-game-mashups (CC0; mods & mashups with 25+ stars)", "url": "https://github.com/bailo167/awesome-game-mashups"},
+ {"name": "bailo167/awesome-game-mashups (mods & mashups with 25+ stars)", "url": "https://github.com/bailo167/awesome-game-mashups"},
  {"name": "FMHY-linked lists (fmhy:gaming, PortsDR, PCGamingWiki, RetroReversing; hand-picked)", "url": "https://fmhy.net/"},
  {"name": "portedgames.com (hand-picked)", "url": "https://portedgames.com/"},
  {"name": "Carter54git/Ultimate-Catalog-Of-Web-Game-Ports (hand-picked browser ports)", "url": "https://github.com/Carter54git/Ultimate-Catalog-Of-Web-Game-Ports"},
  {"name": "r/recomps and r/decomps (established projects, hand-picked)", "url": "https://www.reddit.com/r/recomps/"},
  {"name": "BlueInterlude/awesome-recompilations", "url": "https://github.com/BlueInterlude/awesome-recompilations"},
 ]
+LICENSE_META = {
+ "data": "CC-BY-SA-4.0", "data_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+ "code": "MIT",
+ "note": "All list data (README.md, data/*.json) is licensed CC BY-SA 4.0 because it includes facts adapted from Recompendium (recompendium.com, CC BY-SA 4.0), which requires derivatives to share alike. Compiled from the sources listed in 'sources'; filtered and modified by us. Scripts and website code are MIT.",
+ "attribution": "awesome-decomp-games contributors, compiled from the listed sources (Recompendium, recomp.fyi, Quiver, unbaked.games, portsdr.com, awesome-game-remakes, awesome-game-mashups and others)",
+}
 if __name__ == "__main__": main()
