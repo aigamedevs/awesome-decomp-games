@@ -93,16 +93,19 @@ def backup(g, slug, idx):
 def main():
     games = json.load(open(f'{REPO}/data/games.json'))['games']
     k = known(); used = set(k.values()) | set(os.listdir(SITES)); todo = []
+    try: drive = {l.split('\t')[0] for l in open(f'{SITES}/drive-index.tsv') if '\t' in l}  # already uploaded to Drive
+    except OSError: drive = set()
+    have = lambda s: s in drive or os.path.isdir(f'{SITES}/{s}')
     for g in games:
         u = g.get('play_url')
         if not u or not g.get('browser_playable', True) or urllib.parse.urlsplit(u).netloc in SKIP_HOSTS: continue
         if only and g['id'] not in only: continue
         n = norm(u); host = n.split('/')[0]
         hit = next((v for kk, v in k.items() if n == kk or n.startswith(kk + '/')), None)
-        if hit and os.path.isdir(f'{SITES}/{hit}') and du(f'{SITES}/{hit}') > 50_000: continue
+        if hit and (hit in drive or (os.path.isdir(f'{SITES}/{hit}') and du(f'{SITES}/{hit}') > 50_000)): continue
         same = next((v for kk, v in k.items() if kk.split('/')[0] == host), None)
-        if same and os.path.isdir(f'{SITES}/{same}') and n == host: continue  # host root already mirrored
-        if same and os.path.isdir(f'{SITES}/{same}'):
+        if same and have(same) and n == host: continue  # host root already mirrored
+        if same and have(same):
             if g['id'] in done_ids(): continue   # extra page on an already-mirrored host
             todo.append((g, same)); continue
         slug = k.get(n) or slug_for(g, used); used.add(slug); todo.append((g, slug))
