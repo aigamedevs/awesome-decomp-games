@@ -32,7 +32,7 @@
  {
   "title": "2009scape",
   "url": "https://2009scape.org",
-  "status": 200,
+  "status": 403,
   "reason": "awesome-game-remakes-only, <20 stars"
  },
  {
@@ -638,8 +638,8 @@
  {
   "title": "Barbarian",
   "url": "http://barbarian.1987.free.fr/indexEN.htm",
-  "status": 0,
-  "reason": "dead link"
+  "status": 200,
+  "reason": "awesome-game-remakes-only, <20 stars"
  },
  {
   "title": "Battalion Wars 2",
@@ -1088,12 +1088,6 @@
  {
   "title": "Call of Duty 4: Modern Warfare (multiplayer)",
   "url": "https://github.com/daniel-lynch/mw-recomp-mp",
-  "status": 200,
-  "reason": "recomp.fyi-only, <10 stars or fork"
- },
- {
-  "title": "Call of Duty: Black Ops II",
-  "url": "https://github.com/officialmelon/bo2-recompiled",
   "status": 200,
   "reason": "recomp.fyi-only, <10 stars or fork"
  },
@@ -6674,7 +6668,7 @@
  {
   "title": "PopRE Bug Tracker",
   "url": "https://www.populous3.info/bugs/my_view_page.php",
-  "status": 200,
+  "status": 403,
   "reason": "awesome-game-remakes-only, <20 stars"
  },
  {
@@ -7498,12 +7492,6 @@
   "url": "https://sourceforge.net/projects/seven-kingdoms-ambition",
   "status": 200,
   "reason": "awesome-game-remakes-only, <20 stars"
- },
- {
-  "title": "Sexy Parodius",
-  "url": "https://github.com/NJH-1001/SexyParoRecomp",
-  "status": 200,
-  "reason": "recomp.fyi-only, <10 stars or fork"
  },
  {
   "title": "Shadow the Hedgehog",
@@ -9360,12 +9348,6 @@
   "reason": "recomp.fyi-only, <10 stars or fork"
  },
  {
-  "title": "Tomb Raider (OpenLara)",
-  "url": "http://xproger.info/projects/OpenLara",
-  "status": 0,
-  "reason": "dead link"
- },
- {
   "title": "Tomba!",
   "url": "https://github.com/dguillot-gh/tomba-android",
   "status": 200,
@@ -9932,7 +9914,7 @@
  {
   "title": "VoxeLibre",
   "url": "https://git.minetest.land/VoxeLibre/VoxeLibre",
-  "status": 200,
+  "status": 403,
   "reason": "awesome-game-remakes-only, <20 stars"
  },
  {
