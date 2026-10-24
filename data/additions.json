@@ -1932,5 +1932,14 @@
   "needs_assets": "byo",
   "ai_flag": true,
   "description": "Static recompilation of Killzone 2 for PC with ps3recomp, Linux and Vulkan first. Work in progress, not playable: it boots, walks its menus up to the start of a campaign, but the first in-level frames stall. AI-assisted (Claude). Needs your own copy with a decrypted EBOOT."
+ },
+ {
+  "title": "Quake III Arena (Quake III Arena Remastered)",
+  "url": "https://github.com/ozmiumofficial/quake-3-arena-remastered-fan-project",
+  "platform": "PC",
+  "type": "remake",
+  "needs_assets": "byo",
+  "ai_flag": true,
+  "description": "Godot 4 remaster that runs id's GPL game code (ioquake3) as a GDExtension, with remastered PBR models and textures, ragdolls, a map editor with BSP/.map import, replays and online play. Built with Claude Code. The repo carries the remastered asset library (made from id's files, which stay id's); needs your own copy of Quake III Arena."
  }
 ]
