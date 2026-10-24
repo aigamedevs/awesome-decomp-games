@@ -20,6 +20,7 @@ PLAT = {
  "dreamcast":"Dreamcast","dc":"Dreamcast","sega cd":"Sega CD","master system":"Master System",
  "game gear":"Game Gear","android":"Mobile","ios":"Mobile","mobile":"Mobile","j2me":"Mobile",
  "gcn":"GameCube","gen":"Genesis","gg":"Game Gear","vb":"Virtual Boy","32x":"32X","ps5":"PS5",
+ "nintendo 64":"N64","pc / dos":"PC","playstation 4":"PS4","playstation 5":"PS5","playstation portable":"PSP","xbox one":"Xbox One","sega genesis / mega drive":"Genesis","snes / super famicom":"SNES","nes / famicom":"NES",
  "mac":"Mac","amiga":"Amiga","atari 2600":"Atari 2600","pc engine":"PC Engine","n-gage":"N-Gage",
 }
 def norm_plat(p):
@@ -202,6 +203,30 @@ if have("recompendium.json"):
         r = add("recompendium", c["name"], c["url"], c.get("platform", ""), c.get("hint", ""), "")
         if r and c.get("ai"): r["ai_flag"] = True
 
+# 8e. Carter54git/Greates-Games-Decompilations-List: "- **Title** ✦ — [owner/repo](url) · [label](url2) — *note*", sections = platform
+#     parsed after the other lists so their titles/platforms win for shared entries
+#     build.py keeps greatest-only entries with 10+ stars that are not forks
+GSEC = {"open-source reimplementations": "remake", "source ports": "port"}
+sec = ""
+for line in (open(os.path.join(RAW, "greatest.md"), encoding="utf-8") if have("greatest.md") else []):
+    h = re.match(r"^##\s+(.*)", line)
+    if h: sec = h.group(1).strip(); continue
+    m = re.match(r"^\s*-\s+\*\*(.+?)\*\*", line)
+    if not m: continue
+    title = m.group(1)
+    nm = re.search(r"\s—\s\*(.+?)\*\s*$", line)
+    note = nm.group(1).strip() if nm else ""
+    body = line[:nm.start()] if nm else line
+    nl = note.lower()
+    hint = GSEC.get(sec.lower()) or ("recomp" if "recompil" in nl else "port" if re.search(r"\bport\b", nl) else "remake" if "reimplement" in nl else "decomp" if "decompil" in nl else "")
+    desc = re.sub(r"\s*Inactive or archived\.?|\s*Target platform not stated in the repository\.?", "", note).strip()
+    if len(desc) < 25: desc = ""
+    plat = "" if sec.lower() in GSEC or sec.lower() in ("other", "multiplatform", "system software and emulators") else sec
+    ai = bool(re.search(r"\(fork: ai\)|⚠", title, re.I))
+    title = re.sub(r"\s*\(fork: ai\)", "", title, flags=re.I)
+    for lab, u in re.findall(r"\[([^\]]+)\]\((https?://[^)\s]+)\)", body):
+        r = add("greatest", title, u, plat, hint, desc)
+        if r and ai: r["ai_flag"] = True
 # 9. source tags (data/source_tags.json): {"source-id": [urls]} -> tag records whose url/play_url matches
 tp = os.path.join(ROOT, "data", "source_tags.json")
 if os.path.exists(tp):

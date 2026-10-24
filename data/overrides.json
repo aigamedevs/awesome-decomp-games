@@ -74,7 +74,13 @@
   "https://github.com/bwapi/bwapi",
   "https://github.com/libsm64/libsm64-blender",
   "https://github.com/ares-emulator/ares",
-  "https://github.com/akratch/golden-balloon"
+  "https://github.com/akratch/golden-balloon",
+  "https://github.com/alexgaoth/awesome-reverse-engineered",
+  "https://github.com/official-kryo-to/ctw-native/tree/main/port",
+  "https://github.com/tmcleroy/sfa2-recomp",
+  "https://github.com/doldecomp/forecast",
+  "https://github.com/sozud/psy-q-decomp",
+  "https://github.com/AleBello7276/xkrnl-decomp"
  ],
  "set": {
   "https://github.com/Warzone2100/warzone2100": {
@@ -532,6 +538,13 @@
   },
   "https://github.com/Sunlitspace542/ultrastarfox": {
    "game_key": "starfox"
+  },
+  "https://github.com/ficed/Braver": {
+   "type": "engine-remake",
+   "title": "Final Fantasy VII (Braver)"
+  },
+  "https://github.com/Masterllgod/naruto-storm-3-full-burst-port-nativo": {
+   "type": "static-recomp"
   }
  },
  "browser_verified": {

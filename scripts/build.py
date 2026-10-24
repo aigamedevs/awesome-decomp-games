@@ -112,8 +112,10 @@ def main():
         if nk(key) in excl or nk(r["url"]) in excl: continue
         hay = " ".join(str(x) for x in (r["title"], r["url"], key, r.get("play_url"), r.get("info_url"))).lower()
         if any(pat.lower() in hay for pat in over.get("exclude_patterns", [])): continue
-        srcs = r["sources"]
+        srcs = [x for x in r["sources"] if x != "greatest"] or r["sources"]  # greatest list mirrors Samidy; ignore it for the per-source bars below
         stars = g.get("stars", 0) if g else 0
+        if srcs == ["greatest"] and (stars < 10 or g.get("fork") or not g):
+            dropped.append({"title": r["title"], "url": url, "status": r.get("link_status"), "reason": "greatest-list-only, <10 stars, fork or not on GitHub"}); continue
         only_fyi = srcs == ["recomp.fyi"]
         if only_fyi and (stars < 10 or g.get("fork")):
             dropped.append({"title": r["title"], "url": url, "status": r.get("link_status"), "reason": "recomp.fyi-only, <10 stars or fork"}); continue
@@ -130,7 +132,7 @@ def main():
             dropped.append({"title": r["title"], "url": url, "status": r.get("link_status"), "reason": "awesome-game-remakes-only, <20 stars"}); continue
         if key in seen:  # canonical-URL dedupe (renamed repos)
             prev = seen[key]
-            prev["sources"] = sorted(set(prev["sources"]) | set(srcs)); continue
+            prev["sources"] = sorted(set(prev["sources"]) | set(r["sources"])); continue
         desc = (g.get("description") or r.get("description") or "").strip()
         text = " ".join([r["title"], url, desc, " ".join(g.get("topics", [])), r.get("description", "")]).lower()
         tu = " ".join([r["title"], url]).lower()
@@ -147,7 +149,7 @@ def main():
          "play_url": r.get("play_url"), "info_url": r.get("info_url"), "needs_assets": r.get("assets"),
          "multiplayer": r.get("multiplayer"), "mod_group": r.get("mod_group"), "host": r.get("host"), "guest": r.get("guest"),
          "reddit_post": r.get("reddit_post"), "reddit_user": r.get("reddit_user"), "reddit_upvotes": r.get("reddit_upvotes"), "reddit_comments": r.get("reddit_comments"), "ai_flag": r.get("ai_flag", False),
-         "sources": sorted(srcs), "link_status": r.get("link_status"), "link_ok": ok, "checked_at": r.get("checked_at"),
+         "sources": sorted(r["sources"]), "link_status": r.get("link_status"), "link_ok": ok, "checked_at": r.get("checked_at"),
         }
         e["type"] = classify(r, text, tu)
         if not e["platform"]:
@@ -215,6 +217,7 @@ SOURCES = [
  {"name": "portsdr.com (GitHub entries with >=10 stars)", "url": "https://portsdr.com/"},
  {"name": "Recompendium (recomps, ports and decomps with >=10 stars; facts only, filtered and modified by us; upstream CC BY-SA 4.0)", "url": "https://recompendium.com/"},
  {"name": "Fulton launcher lists (hand-picked)", "url": "https://github.com/TriwindBryan/fulton"},
+ {"name": "Carter54git/Greates-Games-Decompilations-List (entries with >=10 stars)", "url": "https://github.com/Carter54git/Greates-Games-Decompilations-List"},
  {"name": "radek-sprta/awesome-game-remakes", "url": "https://github.com/radek-sprta/awesome-game-remakes"},
  {"name": "X post by @RadiantOpti (browser games list)", "url": "https://x.com/RadiantOpti/status/2108068632991256995"},
  {"name": "bailo167/awesome-game-mashups (mods & mashups with 25+ stars)", "url": "https://github.com/bailo167/awesome-game-mashups"},

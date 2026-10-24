@@ -9,6 +9,7 @@ raw SamidyFR/Game-Decompilations samidy.md
 raw CharlotteCross1998/awesome-game-decompilations charlotte.md
 raw BlueInterlude/awesome-recompilations blueinterlude.md
 raw radek-sprta/awesome-game-remakes remakes.md
+raw Carter54git/Greates-Games-Decompilations-List greatest.md
 get https://decomp.dev/projects.json decompdev.json
 get https://recompiledgames.com/ recompiledgames.html
 get https://recomp.fyi/ recompfyi.html
