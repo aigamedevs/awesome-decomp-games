@@ -3654,6 +3654,12 @@
   "reason": "recomp.fyi-only, <10 stars or fork"
  },
  {
+  "title": "Grand Theft Auto V",
+  "url": "https://web.archive.org/web/20261006055917/https://playgta5.com",
+  "status": 0,
+  "reason": "dead link"
+ },
+ {
   "title": "Grand Theft Auto: Vice City",
   "url": "https://github.com/codepdbh/reVC-android-evolved-ENHANCED-MOD",
   "status": 200,
@@ -6564,12 +6570,6 @@
   "reason": "recomp.fyi-only, <10 stars or fork"
  },
  {
-  "title": "Pirates of the Caribbean: At World's End",
-  "url": "https://github.com/ElGuslml/PiratesAtWorldsEndRecomp",
-  "status": 200,
-  "reason": "recomp.fyi-only, <10 stars or fork"
- },
- {
   "title": "Pitfall!",
   "url": "https://github.com/antxiko/Pitfall-MSX-disassembly",
   "status": 200,
@@ -7096,12 +7096,6 @@
   "url": "https://github.com/timbergeron/QSS-M",
   "status": 200,
   "reason": "unbaked-only, <10 stars, fork or not on GitHub"
- },
- {
-  "title": "Quake 4",
-  "url": "https://github.com/cyberheater/Xbox-360-Quake4-decomp",
-  "status": 200,
-  "reason": "recomp.fyi-only, <10 stars or fork"
  },
  {
   "title": "Quake II",
@@ -8738,8 +8732,8 @@
  {
   "title": "Super Mario Galaxy",
   "url": "https://github.com/alxblueflame/smgstarlight",
-  "status": 200,
-  "reason": "recomp.fyi-only, <10 stars or fork"
+  "status": 404,
+  "reason": "dead link"
  },
  {
   "title": "Super Mario Kart",
@@ -9586,6 +9580,12 @@
   "url": "https://github.com/DaBrown95/tsbodp",
   "status": 200,
   "reason": "recomp.fyi-only, <10 stars or fork"
+ },
+ {
+  "title": "The Spongebob Squarepants Movie",
+  "url": "https://decomp.dev/bfbbdecomp/tssm",
+  "status": 0,
+  "reason": "dead link"
  },
  {
   "title": "The Treasure of Usas",
